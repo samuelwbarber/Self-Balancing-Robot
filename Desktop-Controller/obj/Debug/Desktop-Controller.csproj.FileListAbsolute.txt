@@ -1,0 +1,138 @@
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe.config
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.pdb
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.AssemblyReference.cache
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Connection1.resources
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Controller.resources
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Properties.Resources.resources
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.GenerateResource.cache
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.CoreCompileInputs.cache
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.exe
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.pdb
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Login.resources
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Memory.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\ZstdSharp.dll
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.pdb
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Memory.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Sql.resources
+C:\Users\sbarb\Source\Repos\MorganPressman\Flamingo\Desktop-Controller\obj\Debug\Desktop-.D27DB764.Up2Date
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe.config
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.pdb
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Memory.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\ZstdSharp.dll
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.pdb
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Memory.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.AssemblyReference.cache
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Connection1.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Controller.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Login.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Properties.Resources.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Sql.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.GenerateResource.cache
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.CoreCompileInputs.cache
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-.D27DB764.Up2Date
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.exe
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.pdb
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.AssemblyReference.cache
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Connection1.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Controller.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Login.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Properties.Resources.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.Sql.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.GenerateResource.cache
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.csproj.CoreCompileInputs.cache
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.exe
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-Controller.pdb
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe.config
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.exe
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Desktop-Controller.pdb
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Memory.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\ZstdSharp.dll
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.pdb
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Google.Protobuf.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\MySql.Data.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Buffers.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.IO.Pipelines.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Memory.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.auth2.resources
+C:\Users\sbarb\Downloads\Flamingo\Desktop-Controller\obj\Debug\Desktop-.D27DB764.Up2Date
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.auth2.resources
+C:\Users\mzpre\Year 2 Project\Flamingo\Desktop-Controller\obj\Debug\Desktop_Controller.BatteryHealth.resources

@@ -1,0 +1,62 @@
+/* src/HomePage.css */
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  
+  h1 {
+    font-size: 48px; /* Increase font size for the heading */
+    margin-bottom: 40px; /* Increase space below the heading */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the buttons */
+  }
+  
+  .button-container button {
+    width: 200px;  /* Increase button width */
+    padding: 20px 40px; /* Increase padding inside the button */
+    font-size: 24px; /* Increase font size inside the button */
+    color: white; /* Default text color */
+    background-color: pink; /* Default background color */
+    border: none;
+    border-radius: 8px; /* Slightly larger border radius for a rounded effect */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button:first-child {
+    background-color: pink; /* Pink background for the first button */
+    color: white; /* White text for the first button */
+  }
+  
+  .button-container button:last-child {
+    background-color: white; /* White background for the second button */
+    color: pink; /* Pink text for the second button */
+  }
+  
+  .button-container button:hover {
+    opacity: 0.8; /* More noticeable opacity change on hover */
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

@@ -1,0 +1,1 @@
+This folder contains CAD models of the test rig used to experiment with different reaction wheel setups, with the objective of implementing self-tilt-up/self-righting capabilities on the robot.

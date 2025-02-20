@@ -1,0 +1,2483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="rlndo" on="05/28/24||16:07:57" using="Simscape Multibody Link Version 7.4" from="Autodesk Inventor 2018 (Build 220112000, 112)"/>
+<ModelUnits mass="lbmass" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Tilt+Robot.iam" uid="Tilt+Robot.iam_{88884B74-4558-F518-AB32-1696B09C3CFA}" version="{968011C6-8445-1196-5E3A-D7855223A9F0}">
+<AssemblyFile name="Tilt+Robot.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="wheel v1:1" grounded="true" uid="wheel v1:1" entityUid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}">
+<Transform>
+<Rotation>0 -1.2351231148954847e-15 -0.99999999999999933 -1.2358156874137772e-16 -0.99999999999999789 4.0245584642661732e-16 -0.99999999999999889 1.2246467991473488e-16 1.1102230246251549e-16</Rotation>
+<Translation>13.282323856740005 0.65130570846542502 1.98025105567385</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel v1:2" uid="wheel v1:2" entityUid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}">
+<Transform>
+<Rotation>0 8.5853866653077787e-16 0.99999999999999967 0.7469571424311936 0.66487218874835252 -6.1219997342951991e-16 -0.66487218874835208 0.74695714243119349 -6.7877399207407778e-16</Rotation>
+<Translation>-4.1976761432602778 0.65130570846542946 1.9802510556738562</Translation>
+</Transform>
+</Instance>
+<Instance name="rigid_body:1" uid="rigid_body:1" entityUid="rigid_body.iam_{1DA255D2-4C1B-4622-7A89-DB82A55AAD83}" rigid="true">
+<Transform>
+<Rotation>1 0 2.7635697995423623e-16 0 0.99980928163319494 0.01952947413821636 -2.7447946773725492e-16 -0.01952947413821636 0.99980928163319494</Rotation>
+<Translation>4.5423238567392028 0.65130570846542735 1.9802510556738497</Translation>
+</Transform>
+<Instance name="Tilt Chassis:1" grounded="true" uid="Tilt Chassis:1" entityUid="Tilt Chassis.iam_{EF5080D4-4764-B39E-3504-FAB9B520788F}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 1.1102230246251565e-16 0</Translation>
+</Transform>
+<Instance name="Stepper Motor v2:1" grounded="true" uid="Stepper Motor v2:1" entityUid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}">
+<Transform>
+<Rotation>-5.1347814888913401e-16 1 0 -0.99999999999999989 -5.1347814888913401e-16 0 0 0 0.99999999999999989</Rotation>
+<Translation>2.0000000000008002 8.1046280797636427e-15 -4.4408920985006262e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="Stepper Motor v2:2" uid="Stepper Motor v2:2" entityUid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}">
+<Transform>
+<Rotation>-6.2202397941249798e-16 -1 -4.7184478546568798e-16 -0.99999999999999989 6.2202397941249808e-16 0 0 4.7184478546568788e-16 -0.99999999999999989</Rotation>
+<Translation>-1.9999999999994795 1.1102230246251565e-16 4.4408920985006262e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:1" uid="Spacer:1" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 -2.2204460492503131e-16 0 2.2204460492503131e-16 0.99999999999999989</Rotation>
+<Translation>2.4868995751603507e-14 3.7999999999999989 -4</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:2" uid="Spacer:2" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 -2.2204460492503131e-16 0 2.2204460492503131e-16 0.99999999999999989</Rotation>
+<Translation>3.4641016151377411 3.8000000000000007 2.0000000000000195</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:3" uid="Spacer:3" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 -2.2204460492503131e-16 0 2.2204460492503131e-16 0.99999999999999989</Rotation>
+<Translation>-3.4641016151377695 3.7999999999999998 1.9999999999999805</Translation>
+</Transform>
+</Instance>
+<Instance name="Tilt Chassis" uid="Tilt Chassis" entityUid="Tilt Chassis.ipt_{20BF773B-4E1F-BB7B-1F5D-3791EC6936E3}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 1.1102230246251565e-16 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Battery Module v16:1" uid="Battery Module v16:1" entityUid="Battery Module v16.iam_{EA432E64-4287-81A3-F82F-68B72ABED728}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 1.1102230246251565e-16 0</Translation>
+</Transform>
+<Instance name="Battery Holder:1" grounded="true" uid="Battery Holder:1" entityUid="Battery Holder.ipt_{1E1A0695-4DE5-0B07-2336-14A8E1E2211E}">
+<Transform>
+<Rotation>-1 0 -1.6653345369377304e-16 0 0.99999999999999989 0 1.6653345369377294e-16 0 -0.99999999999999989</Rotation>
+<Translation>2.3980817331903381e-14 7.3999999999999968 -2.2204460492503131e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Spring:1" uid="Battery Spring:1" entityUid="Battery Spring.ipt_{2D5F54A8-4BB0-0B53-94DF-448E0A8BCEE3}">
+<Transform>
+<Rotation>1.1102230246251605e-16 0 -1 0 0.99999999999999989 0 0.99999999999999989 0 1.11022302462516e-16</Rotation>
+<Translation>1.1000000000000201 7.2499999999999991 -1.5999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Spring:3" uid="Battery Spring:3" entityUid="Battery Spring.ipt_{2D5F54A8-4BB0-0B53-94DF-448E0A8BCEE3}">
+<Transform>
+<Rotation>-1 0 -1.1102230246251605e-16 0 0.99999999999999989 0 1.11022302462516e-16 0 -0.99999999999999989</Rotation>
+<Translation>1.1000000000000298 7.3999999999999986 1.6000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Spring:4" uid="Battery Spring:4" entityUid="Battery Spring.ipt_{2D5F54A8-4BB0-0B53-94DF-448E0A8BCEE3}">
+<Transform>
+<Rotation>-1 0 -1.1102230246251605e-16 0 0.99999999999999989 0 1.11022302462516e-16 0 -0.99999999999999989</Rotation>
+<Translation>-1.0999999999999699 7.3999999999999986 1.6000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Spring:5" uid="Battery Spring:5" entityUid="Battery Spring.ipt_{2D5F54A8-4BB0-0B53-94DF-448E0A8BCEE3}">
+<Transform>
+<Rotation>-1 0 -1.1102230246251605e-16 0 0.99999999999999989 0 1.11022302462516e-16 0 -0.99999999999999989</Rotation>
+<Translation>-1.0999999999999797 7.3999999999999986 -1.5999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="NiMH Battery v2:2" uid="NiMH Battery v2:2" entityUid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>2.5757174171303632e-14 8.0999999999999996 1.5999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="NiMH Battery v2:3" uid="NiMH Battery v2:3" entityUid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.099999999999974776 8.0999999999999979 -1.6000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:1" uid="Battery Strut:1" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251605e-16 2.2204460492503101e-16 1 0 0.99999999999999989 -2.2204460492503099e-16 -0.99999999999999989 0 -1.11022302462516e-16</Rotation>
+<Translation>2.4868995751603507e-14 7.3999999999999986 -4</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:2" uid="Battery Strut:2" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251605e-16 2.2204460492503101e-16 1 0 0.99999999999999989 -2.2204460492503099e-16 -0.99999999999999989 0 -1.11022302462516e-16</Rotation>
+<Translation>3.4641016151377801 7.3999999999999968 1.9999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:3" uid="Battery Strut:3" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251605e-16 2.2204460492503101e-16 1 0 0.99999999999999989 -2.2204460492503099e-16 -0.99999999999999989 0 -1.11022302462516e-16</Rotation>
+<Translation>-3.4641016151377304 7.3999999999999968 1.9999999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Holder Top:1" uid="Battery Holder Top:1" entityUid="Battery Holder Top.ipt_{FABF4E8F-4AEF-7CDC-E0EA-E9B3F35AFD97}">
+<Transform>
+<Rotation>0.86602540378443882 0 -0.49999999999999989 0 -0.99999999999999989 0 -0.49999999999999978 0 -0.86602540378443871</Rotation>
+<Translation>2.5757174171303632e-14 23.909143953999997 -2.2204460492503131e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="93655A095_Male-Female Threaded Hex Standoff:1" uid="93655A095_Male-Female Threaded Hex Standoff:1" entityUid="93655A095_Male-Female Threaded Hex Standoff.ipt_{F09960B1-41FF-6B88-AC6D-E2B125D1C544}">
+<Transform>
+<Rotation>-1 -1.1102230246251605e-16 0 0 0 -0.99999999999999989 1.11022302462516e-16 -0.99999999999999989 0</Rotation>
+<Translation>2.5980762113533409 7 1.4999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="93655A095_Male-Female Threaded Hex Standoff:2" uid="93655A095_Male-Female Threaded Hex Standoff:2" entityUid="93655A095_Male-Female Threaded Hex Standoff.ipt_{F09960B1-41FF-6B88-AC6D-E2B125D1C544}">
+<Transform>
+<Rotation>-1 -1.1102230246251605e-16 0 0 0 -0.99999999999999989 1.11022302462516e-16 -0.99999999999999989 0</Rotation>
+<Translation>2.4868995751603507e-14 6.9999999999999982 -2.9999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="93655A095_Male-Female Threaded Hex Standoff:3" uid="93655A095_Male-Female Threaded Hex Standoff:3" entityUid="93655A095_Male-Female Threaded Hex Standoff.ipt_{F09960B1-41FF-6B88-AC6D-E2B125D1C544}">
+<Transform>
+<Rotation>-1 -1.1102230246251605e-16 0 0 0 -0.99999999999999989 1.11022302462516e-16 -0.99999999999999989 0</Rotation>
+<Translation>-2.5980762113532903 6.9999999999999991 1.4999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="PCB1 v3:1" uid="PCB1 v3:1" entityUid="PCB1 v3.iam_{3FD5F6F7-4C45-21EE-AB69-FDBC7E2411B8}" rigid="true">
+<Transform>
+<Rotation>-1 1.1102230246251605e-16 0 0 0 0.99999999999999989 1.11022302462516e-16 0.99999999999999989 0</Rotation>
+<Translation>9.9999999999999982 6.2000000000000002 -10</Translation>
+</Transform>
+<Instance name="Board:1" grounded="true" uid="Board:1" entityUid="Board.iam_{740D3437-4A21-FA4B-2558-78A3609B0728}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Open CASCADE STEP translator 6.8 11.1.1:1" grounded="true" uid="Open CASCADE STEP translator 6.8 11.1.1:1" entityUid="Open CASCADE STEP translator 6.8 11.1.1.ipt_{C0125F1F-4415-53B9-1F67-D0B5CD72FDA6}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -0.15914395400000014</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J1:1" uid="J1:1" entityUid="J1.iam_{9ADD658C-4C81-15EC-676D-F8B7AC2D1CBD}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="CUI_DEVICES_TB010-508-04BE:1" grounded="true" uid="CUI_DEVICES_TB010-508-04BE:1" entityUid="CUI_DEVICES_TB010-508-04BE.iam_{54C8AB4E-426F-C578-23AC-2B9EBEE6959F}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1.3113422028462884e-07 0.99999999999999145 0 -0.99999999999999145 1.3113422028462884e-07</Rotation>
+<Translation>12.200000000000003 8.9860115051270029 -0.17541382312770093</Translation>
+</Transform>
+<Instance name="TB010-508-02P_Blue_-_S:1" grounded="true" uid="TB010-508-02P_Blue_-_S:1" entityUid="TB010-508-02P_Blue_-_S.ipt_{A825795C-4F10-65B7-8A10-13AAF1AD169C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 8.8817841970012523e-16 0</Translation>
+</Transform>
+</Instance>
+<Instance name="TB010-508-02P_Blue_-_S:2" uid="TB010-508-02P_Blue_-_S:2" entityUid="TB010-508-02P_Blue_-_S.ipt_{A825795C-4F10-65B7-8A10-13AAF1AD169C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -1.0159999999999998</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="J14:1" uid="J14:1" entityUid="J14.iam_{0C1BE6D5-4A61-66F1-7D11-ECA1C3F47CC2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="961104-5804-XX_RGB16777215:1" grounded="true" uid="961104-5804-XX_RGB16777215:1" entityUid="961104-5804-XX_RGB16777215.ipt_{4259ACB7-402C-35A2-ABC6-4BB888974786}">
+<Transform>
+<Rotation>0.86602539989847216 2.185574159870719e-08 0.500000006730691 -0.50000000673068967 1.2527798814651603e-07 0.86602539989846417 -4.3711367558527114e-08 -0.99999999999999178 1.1942179073062831e-07</Rotation>
+<Translation>11.703348541259002 13.966294860839 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J13:1" uid="J13:1" entityUid="J13.iam_{23CD496B-418F-4C2B-D301-BBBF289861AA}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="961104-5804-XX_RGB16777215:2" grounded="true" uid="961104-5804-XX_RGB16777215:2" entityUid="961104-5804-XX_RGB16777215.ipt_{4259ACB7-402C-35A2-ABC6-4BB888974786}">
+<Transform>
+<Rotation>1.1924880638500949e-08 -4.3711409129964495e-08 -0.999999999999999 0.999999999999996 8.7422734461328755e-08 1.1924876817130002e-08 8.7422733940911712e-08 -0.99999999999999512 4.3711410172469995e-08</Rotation>
+<Translation>5.7134136199951016 9.4919960021972987 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J8:1" uid="J8:1" entityUid="J8.iam_{6E9A5B98-45EB-3482-4080-6A9B05DA47A9}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="961104-5804-XX_RGB16777215:3" grounded="true" uid="961104-5804-XX_RGB16777215:3" entityUid="961104-5804-XX_RGB16777215.ipt_{4259ACB7-402C-35A2-ABC6-4BB888974786}">
+<Transform>
+<Rotation>-0.88294758194814893 2.0521226914619051e-08 0.46947158330607874 -0.4694715833060773 4.8827917820126743e-08 -0.88294758194814849 -4.1042487571724129e-08 -0.99999999999999856 -3.347835907802077e-08</Rotation>
+<Translation>12.460971832275002 6.4536628723144993 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R3:1" uid="R3:1" entityUid="R3.iam_{61BD3130-4461-0CCB-C888-E7A6D53A2660}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="User_Library-OAR5R005FLF:1" grounded="true" uid="User_Library-OAR5R005FLF:1" entityUid="User_Library-OAR5R005FLF.ipt_{7EB75D36-4B10-65C9-D0AD-75AFC104F758}">
+<Transform>
+<Rotation>-0.99999999999999623 -3.8213657184465073e-15 -8.7422776573479616e-08 8.7422776573479352e-08 4.3711409127705769e-08 -0.99999999999999523 7.642738472527031e-15 -0.999999999999999 -4.3711409127705769e-08</Rotation>
+<Translation>6.7999916076660014 8.7000122070312997 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R1:1" uid="R1:1" entityUid="R1.iam_{03686AA6-4319-4411-18B8-798D542AB93A}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="User_Library-OAR5R005FLF:2" grounded="true" uid="User_Library-OAR5R005FLF:2" entityUid="User_Library-OAR5R005FLF.ipt_{7EB75D36-4B10-65C9-D0AD-75AFC104F758}">
+<Transform>
+<Rotation>-4.3711388286739219e-08 4.3711409129959095e-08 0.99999999999999811 -0.99999999999999512 8.7422732029246442e-08 -4.3711392108109885e-08 -8.7422733940911712e-08 -0.99999999999999523 4.3711405308589899e-08</Rotation>
+<Translation>13.499987792968001 9.7499916076660007 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J2:1" uid="J2:1" entityUid="J2.iam_{CD135C60-4D19-85DC-5C21-74BCC19801C7}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="SSW-106-02-X-S-RA:1" grounded="true" uid="SSW-106-02-X-S-RA:1" entityUid="SSW-106-02-X-S-RA.ipt_{13171AE9-41A9-FA58-4974-2BA6A8E07766}">
+<Transform>
+<Rotation>-4.1075287217869968e-08 -0.34202012782402225 -0.93969262642804541 1.0237299982035486e-07 -0.93969262642804252 0.34202012782401675 -0.99999999999999389 -8.2150578093603821e-08 7.3611771012060956e-08</Rotation>
+<Translation>8.4262519836426009 6.0474964141846002 -0.27979381084439936</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="C1:1" uid="C1:1" entityUid="C1.iam_{C503D799-467B-1B42-B674-299112CFC8D7}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PNSC-ECA-1VM101:1" grounded="true" uid="PNSC-ECA-1VM101:1" entityUid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}">
+<Transform>
+<Rotation>1.1924880638500001e-08 1 0 0.999999999999996 -1.1924880638499956e-08 8.7422733944381159e-08 8.7422733940911712e-08 -1.0425057051074906e-15 -0.99999999999999611</Rotation>
+<Translation>7.9500122070313015 11.900012207031001 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="U1:1" uid="U1:1" entityUid="U1.iam_{94AFA6E3-44BC-4A2E-B951-429270E5D67D}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="CUI_P783F-Q24-S5-S:1" grounded="true" uid="CUI_P783F-Q24-S5-S:1" entityUid="CUI_P783F-Q24-S5-S.ipt_{F1284A7A-4C34-0DB8-E278-A8813942278B}">
+<Transform>
+<Rotation>-4.3711388286739219e-08 4.3711409129959095e-08 0.99999999999999811 -0.99999999999999512 8.7422732029246442e-08 -4.3711392108109885e-08 -8.7422733940911712e-08 -0.99999999999999523 4.3711405308589899e-08</Rotation>
+<Translation>8.0452011108398018 10.592799377440999 -0.63445434570310066</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="S1:1" uid="S1:1" entityUid="S1.iam_{2C04F0D6-4D6A-E08F-0344-5A8FCB99CD4D}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="l202021ma04_RGB3158064:1" grounded="true" uid="l202021ma04_RGB3158064:1" entityUid="l202021ma04_RGB3158064.ipt_{4F4F5258-4179-549B-0D1D-A69C4B7F3FDD}">
+<Transform>
+<Rotation>-0.48480955826585237 3.8230818227220031e-08 0.87461974149573574 -0.87461974149573307 6.6231039191205765e-08 -0.48480955826585387 -7.6461640470537606e-08 -0.999999999999997 1.3279875046845468e-09</Rotation>
+<Translation>13.861482238769 7.8626419067383004 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R4:1" uid="R4:1" entityUid="R4.iam_{1180179D-45A7-4D07-CF7C-3CAD81D5C903}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="User_Library-Res40-Axial_Short_0_25W-5_6K:1" grounded="true" uid="User_Library-Res40-Axial_Short_0_25W-5_6K:1" entityUid="User_Library-Res40-Axial_Short_0_25W-5_6K.ipt_{8E435D24-4A5C-1835-E81C-FB9170C89FFD}">
+<Transform>
+<Rotation>-0.86602541280316936 0.49999998437909998 -8.2870638358882869e-16 0.49999998437909804 0.86602541280316592 8.7422730606773191e-08 4.3711364659804186e-08 7.5710305955101198e-08 -0.99999999999999623</Rotation>
+<Translation>11.899999237060001 12.550016021728002 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="R2:1" uid="R2:1" entityUid="R2.iam_{C17C7011-4EA6-E66C-11F6-1A86CFBEE2D8}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="User_Library-Res40-Axial_Short_0_25W-5_6K:2" grounded="true" uid="User_Library-Res40-Axial_Short_0_25W-5_6K:2" entityUid="User_Library-Res40-Axial_Short_0_25W-5_6K.ipt_{8E435D24-4A5C-1835-E81C-FB9170C89FFD}">
+<Transform>
+<Rotation>-0.88294758194814815 -0.46947158330608091 2.1083502185539363e-15 -0.46947158330607902 0.88294758194814471 8.742272624914782e-08 -4.1042487571724129e-08 7.7189683759387728e-08 -0.99999999999999634</Rotation>
+<Translation>12.049987792968 7.1500076293945005 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J5:1" uid="J5:1" entityUid="J5.iam_{5C83DEA1-4E5B-8ED0-DDA9-FF838889B8F5}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="USB_Connector_Type_A_TH_female:1" grounded="true" uid="USB_Connector_Type_A_TH_female:1" entityUid="USB_Connector_Type_A_TH_female.ipt_{1CA83AEF-4DC0-6B6D-32B9-04BD00921494}">
+<Transform>
+<Rotation>0.79863553996712466 -2.6306221471339466e-08 -0.60181498344708806 0.60181498344708639 1.2233226598726277e-07 0.79863553996711689 5.2612307238283917e-08 -0.99999999999999212 1.1353037354146223e-07</Rotation>
+<Translation>7.0313171386719029 13.952870178222 -0.71914348602290001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="D3:1" uid="D3:1" entityUid="D3.iam_{600C8BB6-4234-BF79-F1AA-63A097BA0F94}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="WP7113GD (1):1" grounded="true" uid="WP7113GD (1):1" entityUid="WP7113GD (1).iam_{0E66100B-4DE0-DA28-1672-1B9D7B44DEF2}" rigid="true">
+<Transform>
+<Rotation>0.3583679850228666 4.0808143577175046e-08 0.93358041287863847 -0.93358041287863558 1.0308751382734349e-07 0.35836798502286099 -8.1616151535041093e-08 -0.99999999999999378 7.5040948142000852e-08</Rotation>
+<Translation>14.3902053833 11.685011291502999 -0.85002355575559996</Translation>
+</Transform>
+<Instance name="WP7113GD:1" grounded="true" uid="WP7113GD:1" entityUid="WP7113GD.ipt_{D3BAF5E8-44E4-50FB-D9F1-19BC429FA3BF}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="D2:1" uid="D2:1" entityUid="D2.iam_{09D70841-4950-12E9-FFD4-5985D61D113F}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="WP7113GD (1):2" grounded="true" uid="WP7113GD (1):2" entityUid="WP7113GD (1).iam_{0E66100B-4DE0-DA28-1672-1B9D7B44DEF2}" rigid="true">
+<Transform>
+<Rotation>0.73135380985392084 -2.9811149389771732e-08 -0.68199824399491971 0.68199824399491782 1.1939128901489182e-07 0.73135380985391363 5.962215177297836e-08 -0.99999999999999234 1.0764842561794552e-07</Rotation>
+<Translation>13.203553771972002 6.5642929077147993 -0.85002355575560173</Translation>
+</Transform>
+<Instance name="WP7113GD:1" grounded="true" uid="WP7113GD:1" entityUid="WP7113GD.ipt_{D3BAF5E8-44E4-50FB-D9F1-19BC429FA3BF}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 8.8817841970012523e-16 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="S3:1" uid="S3:1" entityUid="S3.iam_{86450D7B-47C1-737D-73CB-C9BD9D76A726}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="-1814025624:1" grounded="true" uid="-1814025624:1" entityUid="-1814025624.iam_{652DA6A3-4AC9-F2E1-3DEE-B5BE48F86E42}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.7520057678223004 13.574990844726001 -0.88914365768430059</Translation>
+</Transform>
+<Instance name="Extruded:1" grounded="true" uid="Extruded:1" entityUid="Extruded.ipt_{99F170DC-454B-1BA3-C1C7-BFAA21242A42}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814025624:2" uid="-1814025624:2" entityUid="-1814025624.iam_{652DA6A3-4AC9-F2E1-3DEE-B5BE48F86E42}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.5020095825195021 13.574990844726001 -0.88914365768430059</Translation>
+</Transform>
+<Instance name="Extruded:1" grounded="true" uid="Extruded:1" entityUid="Extruded.ipt_{99F170DC-454B-1BA3-C1C7-BFAA21242A42}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814025624:3" uid="-1814025624:3" entityUid="-1814025624.iam_{652DA6A3-4AC9-F2E1-3DEE-B5BE48F86E42}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.2519996643066023 13.575000000000001 -0.88914365768430059</Translation>
+</Transform>
+<Instance name="Extruded:1" grounded="true" uid="Extruded:1" entityUid="Extruded.ipt_{99F170DC-454B-1BA3-C1C7-BFAA21242A42}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814017624:1" uid="-1814017624:1" entityUid="-1814017624.iam_{040B053C-4E84-DBE2-4FDD-DFB20B7BBE20}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.7520118713379027 13.399990844725998 -0.7591436386107997</Translation>
+</Transform>
+<Instance name="Extruded (1):1" grounded="true" uid="Extruded (1):1" entityUid="Extruded (1).ipt_{C2BBFF70-48D9-4062-07AA-C6B67F5565B4}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814017624:2" uid="-1814017624:2" entityUid="-1814017624.iam_{040B053C-4E84-DBE2-4FDD-DFB20B7BBE20}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.5020088195801016 13.399990844725998 -0.7591436386107997</Translation>
+</Transform>
+<Instance name="Extruded (1):1" grounded="true" uid="Extruded (1):1" entityUid="Extruded (1).ipt_{C2BBFF70-48D9-4062-07AA-C6B67F5565B4}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814017624:3" uid="-1814017624:3" entityUid="-1814017624.iam_{040B053C-4E84-DBE2-4FDD-DFB20B7BBE20}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.2520095825195021 13.399990844725998 -0.7591436386107997</Translation>
+</Transform>
+<Instance name="Extruded (1):1" grounded="true" uid="Extruded (1):1" entityUid="Extruded (1).ipt_{C2BBFF70-48D9-4062-07AA-C6B67F5565B4}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="-1814017024:1" uid="-1814017024:1" entityUid="-1814017024.iam_{B212B6E5-457A-7102-92B3-A98D71AB2B2B}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>9.4997993469238011 13.399999999999999 -0.65914368629460007</Translation>
+</Transform>
+<Instance name="Extruded (2):1" grounded="true" uid="Extruded (2):1" entityUid="Extruded (2).ipt_{A4400586-42D3-F975-2C97-D0AD5F738E7E}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="J4:1" uid="J4:1" entityUid="J4.iam_{16A595F1-4B7E-641B-2459-2A90FBCE00BC}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="USB_Connector_Type_A_TH_female:2" grounded="true" uid="USB_Connector_Type_A_TH_female:2" entityUid="USB_Connector_Type_A_TH_female.ipt_{1CA83AEF-4DC0-6B6D-32B9-04BD00921494}">
+<Transform>
+<Rotation>-0.6560590172097075 -3.298938100962883e-08 -0.75470959046366426 0.75470959046366215 5.8745509890628655e-08 -0.65605901720970827 6.5978780591779973e-08 -0.99999999999999767 -1.3643119250658642e-08</Rotation>
+<Translation>6.2638450622558999 6.7628105163574004 -0.7191434860229009</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="S2:1" uid="S2:1" entityUid="S2.iam_{C0569D7A-4F6F-F6B9-1250-E0B3CC0E1EAB}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="l202021ma04_RGB3158064:2" grounded="true" uid="l202021ma04_RGB3158064:2" entityUid="l202021ma04_RGB3158064.ipt_{4F4F5258-4179-549B-0D1D-A69C4B7F3FDD}">
+<Transform>
+<Rotation>0.052335975053580883 4.3651507613111489e-08 0.99862953376874919 -0.99862953376874619 8.9710413573446113e-08 0.05233597505357681 -8.7302924264842652e-08 -0.999999999999995 4.8286766662821584e-08</Rotation>
+<Translation>14.406350708007002 10.233639526367 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J10:1" uid="J10:1" entityUid="J10.iam_{A83981E9-4475-EC26-4908-FCB6B0BDF3E2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:1" grounded="true" uid="Samtec-SSW-108-01-G-S:1" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>-0.99999999999999623 -3.8213657184465073e-15 -8.7422776573479616e-08 8.7422776573479352e-08 4.3711409127705769e-08 -0.99999999999999523 7.642738472527031e-15 -0.999999999999999 -4.3711409127705769e-08</Rotation>
+<Translation>7.4699943542480023 9.9989929199219034 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J9:1" uid="J9:1" entityUid="J9.iam_{33324B0B-4471-9BE1-8F06-ECAAEB9D19FE}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:2" grounded="true" uid="Samtec-SSW-108-01-G-S:2" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>1 0 0 0 1.3113422028462884e-07 0.99999999999999145 0 -0.99999999999999145 1.3113422028462884e-07</Rotation>
+<Translation>6.2000061035156016 10.001007080077999 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J12:1" uid="J12:1" entityUid="J12.iam_{B5D61286-48CE-3B6F-4717-61B526981E75}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:3" grounded="true" uid="Samtec-SSW-108-01-G-S:3" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>0.49999991386596992 -3.7855232538296742e-08 -0.86602545351393767 0.86602545351393501 1.0927844779767826e-07 0.49999991386596365 7.5710304303644449e-08 -0.99999999999999323 8.7422809411791258e-08</Rotation>
+<Translation>11.264131927490002 12.191551208496001 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J11:1" uid="J11:1" entityUid="J11.iam_{A58139BF-4848-0E4E-71EE-B096B65064F3}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:4" grounded="true" uid="Samtec-SSW-108-01-G-S:4" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>-0.50000005143399961 3.7855153217264655e-08 0.86602537408900226 -0.86602537408899971 6.5567044234965399e-08 -0.50000005143400095 -7.5710302568920973e-08 -0.999999999999997 -2.2655488596257101e-15</Rotation>
+<Translation>11.900868988037001 13.290388488769 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J7:1" uid="J7:1" entityUid="J7.iam_{28C73C0B-4A7B-8438-0D3A-55A521B9C0D2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:5" grounded="true" uid="Samtec-SSW-108-01-G-S:5" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>0.46947160654019215 3.8594919836245963e-08 0.88294756959434995 -0.88294756959434728 1.0794401047661828e-07 0.4694716065401861 -7.7189682683859173e-08 -0.99999999999999323 8.475393868147274e-08</Rotation>
+<Translation>11.188655090332002 7.7666107177734007 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J6:1" uid="J6:1" entityUid="J6.iam_{100F5E8A-4A9B-A961-7050-67B8EBCC6260}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:6" grounded="true" uid="Samtec-SSW-108-01-G-S:6" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>-0.46947162977388041 -3.8594842086989091e-08 -0.88294755724077711 0.88294755724077423 6.6901479821301901e-08 -0.46947162977388196 7.7189681604861171e-08 -0.99999999999999689 2.6688747756936637e-09</Rotation>
+<Translation>11.783100128173002 6.6443313598633003 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J3:1" uid="J3:1" entityUid="J3.iam_{FD54F31D-41AF-415F-4946-21AF47FC569C}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-01-G-S:7" grounded="true" uid="Samtec-SSW-108-01-G-S:7" entityUid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}">
+<Transform>
+<Rotation>1.1924880638500949e-08 -4.3711409129964495e-08 -0.999999999999999 0.999999999999996 8.7422734461328755e-08 1.1924876817130002e-08 8.7422733940911712e-08 -0.99999999999999512 4.3711410172469995e-08</Rotation>
+<Translation>10.125993347168002 14.100006103515 -0.15914387702940136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="F1:1" uid="F1:1" entityUid="F1.iam_{4D7B9313-4170-E93A-9616-A5AA5C8E2EE2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="CFH02_RGB52479:1" grounded="true" uid="CFH02_RGB52479:1" entityUid="CFH02_RGB52479.ipt_{C1512619-4CA3-D05D-0F33-4184425736DB}">
+<Transform>
+<Rotation>-4.3711388286739219e-08 4.3711409129959095e-08 0.99999999999999811 -0.99999999999999512 8.7422732029246442e-08 -4.3711392108109885e-08 -8.7422733940911712e-08 -0.99999999999999523 4.3711405308589899e-08</Rotation>
+<Translation>12.849992370605003 9.8999916076660011 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="D1:1" uid="D1:1" entityUid="D1.iam_{42CAFFEA-4B7B-4205-DCB5-A8ACF40B6F67}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="User_Library-DO-41-30:1" grounded="true" uid="User_Library-DO-41-30:1" entityUid="User_Library-DO-41-30.ipt_{38974EDE-4334-0D45-0A1E-30B626179B66}">
+<Transform>
+<Rotation>-0.48480955826585226 -0.87461974149573674 -4.7375759629533957e-15 -0.87461974149573318 0.48480955826585043 8.7422726859770483e-08 -7.6461640474007053e-08 4.2383377736252004e-08 -0.99999999999999623</Rotation>
+<Translation>12.804008483886001 8.0455291748047006 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="C4:1" uid="C4:1" entityUid="C4.iam_{AAF8E958-48AB-4A69-05D8-2E89F4AF8BDA}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PNSC-ECA-1VM101:2" grounded="true" uid="PNSC-ECA-1VM101:2" entityUid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}">
+<Transform>
+<Rotation>-0.99999999999999623 8.7422776573480027e-08 0 8.7422776573479696e-08 0.99999999999999234 8.7422733940911712e-08 7.6427384727338262e-15 8.7422733944381159e-08 -0.99999999999999623</Rotation>
+<Translation>5.6999870300293001 10.950012207031 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="C5:1" uid="C5:1" entityUid="C5.iam_{090158FA-4BBD-350B-E328-94B99C4E9312}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PNSC-ECA-1VM101:3" grounded="true" uid="PNSC-ECA-1VM101:3" entityUid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}">
+<Transform>
+<Rotation>0.49999991386596415 0.86602545351394189 -4.8700520085481969e-15 0.86602545351393834 -0.49999991386596226 8.7422726925689975e-08 7.5710304303644449e-08 -4.3711360151257872e-08 -0.99999999999999634</Rotation>
+<Translation>12.987515258789003 13.241751098632001 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="C3:1" uid="C3:1" entityUid="C3.iam_{612B430C-4E97-5B54-272B-1C91D5889824}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PNSC-ECA-1VM101:4" grounded="true" uid="PNSC-ECA-1VM101:4" entityUid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}">
+<Transform>
+<Rotation>0.49999995856927393 -0.86602542770447832 3.4341064676105639e-15 -0.86602542770447488 -0.49999995856927193 8.7422726096492154e-08 -7.5710302041565036e-08 -4.371136240119422e-08 -0.99999999999999634</Rotation>
+<Translation>11.249996185302003 5.7499835968018003 -0.15914387702940047</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="C2:1" uid="C2:1" entityUid="C2.iam_{9F1EB47F-4DC2-EB42-9FBA-EEB1DE52F8AD}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="PNSC-ECA-1VM101:5" grounded="true" uid="PNSC-ECA-1VM101:5" entityUid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}">
+<Transform>
+<Rotation>-4.3711388286739808e-08 -0.99999999999999911 0 -0.99999999999999512 4.3711388286739636e-08 8.7422733944381159e-08 -8.7422733940911712e-08 3.8213692363669131e-15 -0.99999999999999611</Rotation>
+<Translation>7.949987792968801 8.099988555908201 -0.15914387702939958</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:1" uid="91292A111_18-8 Stainless Steel Socket Head Screw:1" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw.ipt_{DA74DF8B-4019-981E-99E6-E5AC4CCBA6C8}">
+<Transform>
+<Rotation>-1 1.1102230246251605e-16 0 0 0 0.99999999999999989 1.11022302462516e-16 0.99999999999999989 0</Rotation>
+<Translation>2.3980817331903381e-14 6.6408560459999988 -3</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:2" uid="91292A111_18-8 Stainless Steel Socket Head Screw:2" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw.ipt_{DA74DF8B-4019-981E-99E6-E5AC4CCBA6C8}">
+<Transform>
+<Rotation>-1 1.1102230246251605e-16 0 0 0 0.99999999999999989 1.11022302462516e-16 0.99999999999999989 0</Rotation>
+<Translation>2.5981000000000307 6.6408560460000006 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:3" uid="91292A111_18-8 Stainless Steel Socket Head Screw:3" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw.ipt_{DA74DF8B-4019-981E-99E6-E5AC4CCBA6C8}">
+<Transform>
+<Rotation>-1 1.1102230246251605e-16 0 0 0 0.99999999999999989 1.11022302462516e-16 0.99999999999999989 0</Rotation>
+<Translation>-2.5980999999999801 6.6408560459999997 1.5000000000000004</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Logic Module v7:1" uid="Logic Module v7:1" entityUid="Logic Module v7.iam_{F9E10FED-4A50-C05A-22FB-B4B75DFB76F2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>8.8817841970012523e-16 28.499999999999996 0</Translation>
+</Transform>
+<Instance name="Chassis:1" grounded="true" uid="Chassis:1" entityUid="Chassis.ipt_{CB255870-4C81-5A40-A6C4-F1949B79EC0E}">
+<Transform>
+<Rotation>1 0 4.4408920985006301e-16 0 0.99999999999999989 0 -4.4408920985006291e-16 0 0.99999999999999989</Rotation>
+<Translation>2.7533531010703882e-14 -7.2000000000000135 -4.6629367034256575e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A163_Female Threaded Hex Standoff:1" uid="94868A163_Female Threaded Hex Standoff:1" entityUid="94868A163_Female Threaded Hex Standoff.ipt_{36111BAE-42C3-1EFC-5C40-ED9464DA1351}">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-2.4499999999999713 2.0999999999999837 2.9999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A163_Female Threaded Hex Standoff:2" uid="94868A163_Female Threaded Hex Standoff:2" entityUid="94868A163_Female Threaded Hex Standoff.ipt_{36111BAE-42C3-1EFC-5C40-ED9464DA1351}">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>2.4500000000000304 2.0999999999999837 2.9999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A163_Female Threaded Hex Standoff:3" uid="94868A163_Female Threaded Hex Standoff:3" entityUid="94868A163_Female Threaded Hex Standoff.ipt_{36111BAE-42C3-1EFC-5C40-ED9464DA1351}">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-2.4499999999999713 -3.7000000000000135 2.9999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A163_Female Threaded Hex Standoff:4" uid="94868A163_Female Threaded Hex Standoff:4" entityUid="94868A163_Female Threaded Hex Standoff.ipt_{36111BAE-42C3-1EFC-5C40-ED9464DA1351}">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>2.4500000000000295 -3.7000000000000135 3.0000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A006_Female Threaded Hex Standoff:1" uid="94868A006_Female Threaded Hex Standoff:1" entityUid="94868A006_Female Threaded Hex Standoff.ipt_{D24D65FF-4ACD-A11A-BF14-B9B55A5D28A6}">
+<Transform>
+<Rotation>0.49999999999999989 0 -0.86602540378443882 -1.2490009027033011e-16 0.99999999999999989 0 0.86602540378443871 1.0755285551056204e-16 0.49999999999999983</Rotation>
+<Translation>1.4781787517317895 -1.3200000000000145 -3.6397192993318601</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A006_Female Threaded Hex Standoff:2" uid="94868A006_Female Threaded Hex Standoff:2" entityUid="94868A006_Female Threaded Hex Standoff.ipt_{D24D65FF-4ACD-A11A-BF14-B9B55A5D28A6}">
+<Transform>
+<Rotation>0.49999999999999989 0 -0.86602540378443882 1.214306433183765e-16 0.99999999999999989 0 0.86602540378443871 -1.0755285551056204e-16 0.49999999999999983</Rotation>
+<Translation>3.8911787517317888 -1.1930000000000156 0.53971929933184581</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A006_Female Threaded Hex Standoff:3" uid="94868A006_Female Threaded Hex Standoff:3" entityUid="94868A006_Female Threaded Hex Standoff.ipt_{D24D65FF-4ACD-A11A-BF14-B9B55A5D28A6}">
+<Transform>
+<Rotation>0.49999999999999989 0 -0.86602540378443882 -1.2490009027033011e-16 0.99999999999999989 0 0.86602540378443871 1.0755285551056204e-16 0.49999999999999983</Rotation>
+<Translation>2.240178751731789 -6.4000000000000128 -2.3198965839643702</Translation>
+</Transform>
+</Instance>
+<Instance name="94868A006_Female Threaded Hex Standoff:4" uid="94868A006_Female Threaded Hex Standoff:4" entityUid="94868A006_Female Threaded Hex Standoff.ipt_{D24D65FF-4ACD-A11A-BF14-B9B55A5D28A6}">
+<Transform>
+<Rotation>0.49999999999999989 0 -0.86602540378443882 -1.2490009027033011e-16 0.99999999999999989 0 0.86602540378443871 1.0755285551056204e-16 0.49999999999999983</Rotation>
+<Translation>3.6371787517317911 -6.4000000000000128 0.099778394209352417</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A010_18-8 Stainless Steel Socket Head Screw:1" uid="91292A010_18-8 Stainless Steel Socket Head Screw:1" entityUid="91292A010_18-8 Stainless Steel Socket Head Screw.ipt_{E05F2865-4961-C3B7-155F-83A112023D8C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>-2.4499999999999713 2.0999999999999872 3.0319999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A010_18-8 Stainless Steel Socket Head Screw:2" uid="91292A010_18-8 Stainless Steel Socket Head Screw:2" entityUid="91292A010_18-8 Stainless Steel Socket Head Screw.ipt_{E05F2865-4961-C3B7-155F-83A112023D8C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>2.4500000000000304 2.0999999999999837 3.0319999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A010_18-8 Stainless Steel Socket Head Screw:3" uid="91292A010_18-8 Stainless Steel Socket Head Screw:3" entityUid="91292A010_18-8 Stainless Steel Socket Head Screw.ipt_{E05F2865-4961-C3B7-155F-83A112023D8C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>-2.4499999999999713 -3.7000000000000135 3.0320000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A010_18-8 Stainless Steel Socket Head Screw:4" uid="91292A010_18-8 Stainless Steel Socket Head Screw:4" entityUid="91292A010_18-8 Stainless Steel Socket Head Screw.ipt_{E05F2865-4961-C3B7-155F-83A112023D8C}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>2.4500000000000295 -3.7000000000000135 3.0319999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:1" uid="91292A111_18-8 Stainless Steel Socket Head Screw:1" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt_{15B32AE6-4045-AF0E-ACED-73BB660F49A1}">
+<Transform>
+<Rotation>0.49999999999999989 0 0.86602540378443882 1.214306433183765e-16 -0.99999999999999989 0 0.86602540378443871 1.0755285551056204e-16 -0.49999999999999983</Rotation>
+<Translation>3.8322890242744387 -1.1930000000000156 0.57371929933184695</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:2" uid="91292A111_18-8 Stainless Steel Socket Head Screw:2" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt_{15B32AE6-4045-AF0E-ACED-73BB660F49A1}">
+<Transform>
+<Rotation>-0.49999999999999989 0 0.86602540378443882 0 0.99999999999999989 0 -0.86602540378443871 0 -0.49999999999999983</Rotation>
+<Translation>1.4192890242744403 -1.3200000000000145 -3.6057192993318603</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:3" uid="91292A111_18-8 Stainless Steel Socket Head Screw:3" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt_{15B32AE6-4045-AF0E-ACED-73BB660F49A1}">
+<Transform>
+<Rotation>0.49999999999999989 0 0.86602540378443882 1.214306433183765e-16 -0.99999999999999989 0 0.86602540378443871 1.0755285551056204e-16 -0.49999999999999983</Rotation>
+<Translation>3.5782890242744516 -6.4000000000000163 0.13377839420935267</Translation>
+</Transform>
+</Instance>
+<Instance name="91292A111_18-8 Stainless Steel Socket Head Screw:4" uid="91292A111_18-8 Stainless Steel Socket Head Screw:4" entityUid="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt_{15B32AE6-4045-AF0E-ACED-73BB660F49A1}">
+<Transform>
+<Rotation>-0.49999999999999989 0 0.86602540378443882 0 0.99999999999999989 0 -0.86602540378443871 0 -0.49999999999999983</Rotation>
+<Translation>2.1812890242744389 -6.4000000000000128 -2.2858965839643703</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Raspberry Pi 4 Model B v2:1" uid="Raspberry Pi 4 Model B v2:1" entityUid="Raspberry Pi 4 Model B v2.iam_{29991E16-4620-9A1D-E6D2-75A9EB6631C9}" rigid="true">
+<Transform>
+<Rotation>0 1 0 -0.99999999999999989 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 -15.999999999999998</Translation>
+</Transform>
+<Instance name="PCB, RPi4ModelB:1" grounded="true" uid="PCB, RPi4ModelB:1" entityUid="PCB, RPi4ModelB.ipt_{2892FD78-41DC-D77A-C88B-D6A8283D5941}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-26.6999999999999 2.4868995751603507e-14 19.478999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Broadcom BCM2711B0 CPU, RPi4ModelB:1" uid="Broadcom BCM2711B0 CPU, RPi4ModelB:1" entityUid="Broadcom BCM2711B0 CPU, RPi4ModelB.ipt_{937559FD-4B7F-2BD9-3700-1CA1665AB51D}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-28.024999999999899 0.45000000000002682 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB:1" uid="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB:1" entityUid="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB.ipt_{4C15887A-493A-B72A-942D-848C956FD939}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-24.799999999999901 1.836000000000019 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB:1" uid="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB:1" entityUid="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB.ipt_{724E473A-4DBF-262D-A55B-4DB063935CF6}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-27.6999999999999 2.4500000000000197 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Camera Connector, RPi4ModelB:1" uid="Camera Connector, RPi4ModelB:1" entityUid="Camera Connector, RPi4ModelB.ipt_{4BE6693C-4F0F-F9B9-6755-9A8C61134111}">
+<Transform>
+<Rotation>-1.1674349118862501e-16 0 0.99999999999999989 1 0 1.1674349118862501e-16 0 0.99999999999999989 0</Rotation>
+<Translation>-26.299999999999894 -1.6499999999999697 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Microphone Plug, RPi4ModelB:1" uid="Microphone Plug, RPi4ModelB:1" entityUid="Microphone Plug, RPi4ModelB.ipt_{D9F2ED14-49EB-3225-ABEB-20AE93EB0955}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-25.549999999999901 -2.1649999999999703 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Display Connector, RPi4ModelB:1" uid="Display Connector, RPi4ModelB:1" entityUid="Display Connector, RPi4ModelB.ipt_{74DA3EA1-44F1-7C05-1952-F697B8D55C84}">
+<Transform>
+<Rotation>1.3070178733544101e-16 0 -0.99999999999999989 -1 0 -1.3070178733544101e-16 0 0.99999999999999989 0</Rotation>
+<Translation>-30.549999999999894 2.3980817331903381e-14 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Gigabit Ethernet Port, RPi4ModelB:1" uid="Gigabit Ethernet Port, RPi4ModelB:1" entityUid="Gigabit Ethernet Port, RPi4ModelB.ipt_{0B79999F-410C-2C56-1AB5-A2AD8B9EC88D}">
+<Transform>
+<Rotation>-1.3062127899644001e-16 0 0.99999999999999989 1 0 1.3062127899644001e-16 0 0.99999999999999989 0</Rotation>
+<Translation>-22.149999999999899 1.7750000000000199 20.234000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Female Micro HDMI Connector, RPi4ModelB:1" uid="Female Micro HDMI Connector, RPi4ModelB:1" entityUid="Female Micro HDMI Connector, RPi4ModelB.ipt_{D16EEA38-4C77-518C-314F-CA9BEA672F9E}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-26.999999999999901 -2.7387499999999703 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Female Micro HDMI Connector, RPi4ModelB:2" uid="Female Micro HDMI Connector, RPi4ModelB:2" entityUid="Female Micro HDMI Connector, RPi4ModelB.ipt_{D16EEA38-4C77-518C-314F-CA9BEA672F9E}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-28.349999999999898 -2.7387499999999703 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Female USB Type C Connector, RPi4ModelB:1" uid="Female USB Type C Connector, RPi4ModelB:1" entityUid="Female USB Type C Connector, RPi4ModelB.ipt_{B1B55F03-4647-D6C2-29CA-DA85B83D1737}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-29.829999999999899 -2.6541865899999699 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="2X USB3.0 PORTS, RPi4ModelB:1" uid="2X USB3.0 PORTS, RPi4ModelB:1" entityUid="2X USB3.0 PORTS, RPi4ModelB.ipt_{88FAF07C-4FD6-9328-6300-948E73F66356}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-22.992999999999903 -0.099999999999973888 19.559000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB:1" uid="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB:1" entityUid="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB.ipt_{90E9E6CE-4D34-D24E-DCD6-A783448243E6}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-26.474999999999898 0.45000000000002682 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Cypress CYW43455 Wireless Module Cover, RPi4ModelB:1" uid="Cypress CYW43455 Wireless Module Cover, RPi4ModelB:1" entityUid="Cypress CYW43455 Wireless Module Cover, RPi4ModelB.ipt_{AF907E54-4D74-830A-E80C-F08877F0F969}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-29.749999999999901 1.4500000000000197 19.559000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="SD Card Slot, RPi4ModelB:1" uid="SD Card Slot, RPi4ModelB:1" entityUid="SD Card Slot, RPi4ModelB.ipt_{D50309C3-4249-14F0-BC17-39AA81FBC2DF}">
+<Transform>
+<Rotation>-1.5837685461206899e-16 0 -0.99999999999999989 1 0 -1.5837685461206897e-16 0 -0.99999999999999989 0</Rotation>
+<Translation>-30.229999999999897 2.4868995751603507e-14 19.398999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB:1" uid="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB:1" entityUid="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB.ipt_{C77134E0-431C-A9D7-C1CD-2EA47D8B36E2}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-24.949999999999903 -0.39999999999997371 19.559000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="2X USB2.0 PORTS, RPi4ModelB:1" uid="2X USB2.0 PORTS, RPi4ModelB:1" entityUid="2X USB2.0 PORTS, RPi4ModelB.ipt_{F9335632-483C-2BE2-E441-1091ED6ACE83}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-22.993499999999901 -1.8999999999999702 19.544</Translation>
+</Transform>
+</Instance>
+<Instance name="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB:1" uid="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB:1" entityUid="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB.ipt_{FC8B91E8-48E4-A63C-5A28-14B4F8015C1C}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-25.049999999999901 1.0000000000000195 19.558999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="MxL7704 Universal PMIC, RPi4ModelB:1" uid="MxL7704 Universal PMIC, RPi4ModelB:1" entityUid="MxL7704 Universal PMIC, RPi4ModelB.ipt_{EDCB5278-49D8-FB33-966E-3C984A5C63CE}">
+<Transform>
+<Rotation>0.99999999999999989 0 1.306212789964403e-16 1.3062127899644028e-16 0 -1 0 0.99999999999999989 0</Rotation>
+<Translation>-29.9499999999999 -1.5999999999999699 19.559000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ESP32-shield v4:1" uid="ESP32-shield v4:1" entityUid="ESP32-shield v4.iam_{B01E4BBF-45BA-63C8-1610-BC86F7A0434F}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 1.1102230246251565e-16 0</Translation>
+</Transform>
+<Instance name="Board:1" grounded="true" uid="Board:1" entityUid="Board.ipt_{09FAFAE4-4879-1B02-83D2-33BBFB8149DB}">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.629221453624002 47.72097999999999 21.602656447991102</Translation>
+</Transform>
+</Instance>
+<Instance name="J11:1" uid="J11:1" entityUid="J11_1.iam_{2610FBF0-4D0E-5884-496C-24AEFDE731F4}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="SSW-103-03-TL-D:1" grounded="true" uid="SSW-103-03-TL-D:1" entityUid="SSW-103-03-TL-D.iam_{A5211A9F-400D-AE77-661A-7D96FEEB044B}" rigid="true">
+<Transform>
+<Rotation>1.1924880635033608e-08 -4.3711409129440493e-08 -0.99999999999999889 0.999999999999996 8.7422734551534376e-08 1.1924876811703067e-08 8.7422733996422863e-08 -0.99999999999999512 4.3711410172009302e-08</Rotation>
+<Translation>25.505732727050002 27.150073242186991 -0.041147983074196759</Translation>
+</Transform>
+<Instance name="_SSW-103-03-TL-D_terminal:1" grounded="true" uid="_SSW-103-03-TL-D_terminal:1" entityUid="_SSW-103-03-TL-D_terminal.ipt_{725BE722-4686-6ADA-8FE8-22A71047A9F7}">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 1 0 0 0 0.99999999999999989</Rotation>
+<Translation>-4.4408920985006262e-16 -1.7763568394002505e-15 0</Translation>
+</Transform>
+</Instance>
+<Instance name="_SSW-103-03-TL-D_pin:1" uid="_SSW-103-03-TL-D_pin:1" entityUid="_SSW-103-03-TL-D_pin.ipt_{E0B8C642-4DA2-1B52-A6C0-5BB0C6AAE29B}">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 1 0 0 0 0.99999999999999989</Rotation>
+<Translation>-4.4408920985006262e-16 -1.0007600000000014 -3.5527136788005009e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="J12:1" uid="J12:1" entityUid="J12_1.iam_{7A6E2924-44B2-3620-9641-52A104F60BE8}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-03-T-S:1" grounded="true" uid="Samtec-SSW-108-03-T-S:1" entityUid="Samtec-SSW-108-03-T-S.ipt_{6C97F6EF-4FC7-6E5F-F7D8-F3BCFA475801}">
+<Transform>
+<Rotation>-4.3711388286737929e-08 4.3711409129440493e-08 0.99999999999999811 0.99999999999999889 1.8318679906315083e-15 4.3711388293676823e-08 0 0.99999999999999878 -4.3711409131175216e-08</Rotation>
+<Translation>22.69905090332 24.610066223143996 2.6645352591003757e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J1:1" uid="J1:1" entityUid="J1_1.iam_{B9590B5D-4001-A8B8-EA7E-848822295120}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="SSW-110-03-X-S:1" grounded="true" uid="SSW-110-03-X-S:1" entityUid="SSW-110-03-X-S.ipt_{49AA852B-4B72-E79D-9DA6-A793564E98FD}">
+<Transform>
+<Rotation>-4.3711388286737929e-08 4.3711409129440493e-08 0.99999999999999811 0.99999999999999889 1.8318679906315083e-15 4.3711388293676823e-08 0 0.99999999999999878 -4.3711409131175216e-08</Rotation>
+<Translation>22.038650512694996 29.436068725584992 2.6645352591003757e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J2:1" uid="J2:1" entityUid="J2_1.iam_{828E539B-43F1-55C3-88D3-528E3369FEB3}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="Samtec-SSW-108-03-T-S:2" grounded="true" uid="Samtec-SSW-108-03-T-S:2" entityUid="Samtec-SSW-108-03-T-S.ipt_{6C97F6EF-4FC7-6E5F-F7D8-F3BCFA475801}">
+<Transform>
+<Rotation>1.1924880638503055e-08 -4.3711409131175216e-08 -0.999999999999999 -0.99999999999999978 -6.106226635438361e-16 -1.1924880645441949e-08 0 0.99999999999999889 -4.3711409131175216e-08</Rotation>
+<Translation>24.477029418945001 29.436053466795993 4.4408920985006262e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J13:1" uid="J13:1" entityUid="J13_1.iam_{FFD0A97D-4B24-002C-DCC8-F0BFE1776A23}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="SSW-106-03-TL-S:1" grounded="true" uid="SSW-106-03-TL-S:1" entityUid="SSW-106-03-TL-S.iam_{C8B7A7BC-4C44-ACD6-C1C7-AE899AE9C651}" rigid="true">
+<Transform>
+<Rotation>0.99999999999998468 7.6449263586297889e-15 1.7484555314001282e-07 1.7484555315389061e-07 -4.3711409214441943e-08 -0.99999999999998357 0 0.99999999999999889 -4.3711409103419641e-08</Rotation>
+<Translation>24.731048583984002 24.610064697264995 3.5527136788005009e-15</Translation>
+</Transform>
+<Instance name="_SSW-106-03-TL-S_terminal:1" grounded="true" uid="_SSW-106-03-TL-S_terminal:1" entityUid="_SSW-106-03-TL-S_terminal.ipt_{4F94887A-4794-61FC-AF3F-148BA2DC2495}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.5527136788005009e-15 0 -1.7763568394002505e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="_SSW-106-03-TL-S_pin:1" uid="_SSW-106-03-TL-S_pin:1" entityUid="_SSW-106-03-TL-S_pin.ipt_{1D671DCF-43A2-A642-7BD1-D38EABE01A02}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -1.0007600000000005 -1.7763568394002505e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="D1:1" uid="D1:1" entityUid="D1_1.iam_{1D911DF1-47E4-A535-6A57-D98ECA158354}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="1636032352:1" grounded="true" uid="1636032352:1" entityUid="1636032352.iam_{C504A7F9-44A0-FFB1-C93C-C7BF06FA51F8}" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>24.891999816893996 27.177999877928993 4.4408920985006262e-15</Translation>
+</Transform>
+<Instance name="Extruded:1" grounded="true" uid="Extruded:1" entityUid="Extruded_1.ipt_{6CC2948A-46C1-70D6-D52C-FEAAA7533199}">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>0 -4.4408920985006262e-16 8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="1636032480:1" uid="1636032480:1" entityUid="1636032480.iam_{6726C8F9-467B-6201-DB58-3FA33A606A11}" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>24.891999816893996 27.438351440428995 3.5527136788005009e-15</Translation>
+</Transform>
+<Instance name="Extruded (1):1" grounded="true" uid="Extruded (1):1" entityUid="Extruded (1)_1.ipt_{0B38FDE1-4B48-FBD8-A6E0-299AFB000C62}">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>-3.5527136788005009e-15 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="1636032480:2" uid="1636032480:2" entityUid="1636032480.iam_{6726C8F9-467B-6201-DB58-3FA33A606A11}" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>24.892007446289 26.911288452147993 5.3290705182007514e-15</Translation>
+</Transform>
+<Instance name="Extruded (1):1" grounded="true" uid="Extruded (1):1" entityUid="Extruded (1)_1.ipt_{0B38FDE1-4B48-FBD8-A6E0-299AFB000C62}">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.99999999999999978 0 0 0 0.99999999999999978</Rotation>
+<Translation>0 0 1.7763568394002505e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="J5:1" uid="J5:1" entityUid="J5_1.iam_{F2FACEAE-4D85-F342-78B9-35AB81E90443}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="SSW-119-01-G-S:1" grounded="true" uid="SSW-119-01-G-S:1" entityUid="SSW-119-01-G-S.iam_{51480BF4-4F79-F9A1-A971-9A97A49103BE}" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999611 -3.821595817576906e-15 -8.7422776573475858e-08 -8.7422776576945305e-08 4.3711409047908489e-08 0.99999999999999534 0 0.999999999999999 -4.3711409103419641e-08</Rotation>
+<Translation>22.605995178221999 25.400012207030993 4.4408920985006262e-15</Translation>
+</Transform>
+<Instance name="_T1SSW-119-01-G-S:1" grounded="true" uid="_T1SSW-119-01-G-S:1" entityUid="_T1SSW-119-01-G-S.ipt_{CDBA8E26-42A4-1716-F955-7C8ED56001C7}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>0 -8.8817841970012523e-16 0</Translation>
+</Transform>
+</Instance>
+<Instance name="_P2SSW-119-01-G-S:1" uid="_P2SSW-119-01-G-S:1" entityUid="_P2SSW-119-01-G-S.ipt_{B8D92CC0-4815-0670-B916-8789AEBBE9D1}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>-7.1054273576010019e-15 -0.26416000000000039 8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="J6:1" uid="J6:1" entityUid="J6_1.iam_{56DECAC5-4FD8-8300-02CB-04A1EC702C2B}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="SSW-119-01-G-S:2" grounded="true" uid="SSW-119-01-G-S:2" entityUid="SSW-119-01-G-S.iam_{51480BF4-4F79-F9A1-A971-9A97A49103BE}" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999611 -3.821595817576906e-15 -8.7422776573475858e-08 -8.7422776576945305e-08 4.3711409047908489e-08 0.99999999999999534 0 0.999999999999999 -4.3711409103419641e-08</Rotation>
+<Translation>22.605995178221999 27.940011596678989 2.6645352591003757e-15</Translation>
+</Transform>
+<Instance name="_T1SSW-119-01-G-S:1" grounded="true" uid="_T1SSW-119-01-G-S:1" entityUid="_T1SSW-119-01-G-S.ipt_{CDBA8E26-42A4-1716-F955-7C8ED56001C7}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>0 -8.8817841970012523e-16 0</Translation>
+</Transform>
+</Instance>
+<Instance name="_P2SSW-119-01-G-S:1" uid="_P2SSW-119-01-G-S:1" entityUid="_P2SSW-119-01-G-S.ipt_{B8D92CC0-4815-0670-B916-8789AEBBE9D1}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>-3.5527136788005009e-15 -0.26416000000000039 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="SW1:1" uid="SW1:1" entityUid="SW1.iam_{164DA61E-4B88-935D-AA44-73BB56653F06}" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999989 0.86602540378443882 -0.99999999999999989 0 0 0 -0.86602540378443871 -0.49999999999999983</Rotation>
+<Translation>16.664856666938899 47.720979999999997 21.582082447991098</Translation>
+</Transform>
+<Instance name="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch:1" grounded="true" uid="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch:1" entityUid="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch.ipt_{D6CBF6F5-46ED-C45A-3626-838FDE795CB1}">
+<Transform>
+<Rotation>-0.99999999999999611 -3.821595817576906e-15 -8.7422776573475858e-08 -8.7422776576945305e-08 4.3711409047908489e-08 0.99999999999999534 0 0.999999999999999 -4.3711409103419641e-08</Rotation>
+<Translation>24.891992187499998 28.448007202147991 -0.0050799977034285959</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1:1" uid="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1:1" entityUid="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1.iam_{1C8276A4-4C0E-0B06-A7EC-9CB01D68A703}" rigid="true">
+<Transform>
+<Rotation>0.50000000000003142 0.86602540378442061 1.1102230246251602e-16 0 0 1.0000000000000002 0.86602540378442061 -0.50000000000003142 0</Rotation>
+<Translation>4.3646288527020101 25.114979999999999 -2.11224107094012</Translation>
+</Transform>
+<Instance name="board:1" grounded="true" uid="board:1" entityUid="board_1.ipt_{276F5EF0-4BE0-25C1-EC77-29AD25D7E7D1}">
+<Transform>
+<Rotation>1 3.6193270602780103e-14 0 -3.6193270602780103e-14 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>1.7763568394002505e-15 -5.0981441290787188e-13 -7.1054273576010019e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="header:1" uid="header:1" entityUid="header.ipt_{63A90F93-43A5-B414-D471-7089456B2A2C}">
+<Transform>
+<Rotation>-2.3245294578089215e-16 -2.7755575615628914e-16 -1.0000000000000002 0 -1.0000000000000002 1.6653345369377348e-16 -1.0000000000000002 0 2.3245294578089215e-16</Rotation>
+<Translation>1.2699999999999996 -0.08999999999999897 2.2859999999999765</Translation>
+</Transform>
+</Instance>
+<Instance name="header:2" uid="header:2" entityUid="header.ipt_{63A90F93-43A5-B414-D471-7089456B2A2C}">
+<Transform>
+<Rotation>-2.2898349882893854e-16 -1.1102230246251565e-16 1 0 -1.0000000000000002 0 1.0000000000000002 0 2.2898349882893854e-16</Rotation>
+<Translation>-1.2699999999999996 -0.090000000000004299 -2.286000000000012</Translation>
+</Transform>
+</Instance>
+<Instance name="ESP32-WROOM-32D:1" uid="ESP32-WROOM-32D:1" entityUid="ESP32-WROOM-32D.ipt_{17C788D5-4C91-48CE-1323-1E892D39EAE6}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>0 0 -1.754999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="micro usb:1" uid="micro usb:1" entityUid="micro usb.ipt_{46F2843E-463E-69EE-4DB2-9FAD28FDFAD5}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>-6.2172489379008766e-15 0.12249999999999872 2.2049999999999663</Translation>
+</Transform>
+</Instance>
+<Instance name="button:1" uid="button:1" entityUid="button.ipt_{2910CCA9-48B1-F2CD-CE50-658FC992CBDE}">
+<Transform>
+<Rotation>1 0 0 0 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.78593380656212775 -8.8817841970012523e-16 2.0160887773071359</Translation>
+</Transform>
+</Instance>
+<Instance name="button:2" uid="button:2" entityUid="button.ipt_{2910CCA9-48B1-F2CD-CE50-658FC992CBDE}">
+<Transform>
+<Rotation>1 1.8207657603852567e-14 0 -1.8207657603852567e-14 1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+<Translation>0.78593380656212108 -2.6822988274943782e-13 2.0160887773071501</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Insert:1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel v1:1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 -2.3314683517128287e-15 2.7800000000000029</Position>
+<Axis>0 -8.3266726846887155e-16 1.0000000000000007</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>5.960000000000802 6.106226635438361e-15 -4.4408920985006262e-16</Position>
+<Axis>1 -5.13478148889135e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insert:1_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel v1:1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 -2.3314683517128287e-15 2.7800000000000029</Position>
+<Axis>0 -8.3266726846887155e-16 1.0000000000000007</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>5.960000000000802 6.106226635438361e-15 -4.4408920985006262e-16</Position>
+<Axis>1 -5.13478148889135e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Insert:2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel v1:2</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 2.2204460492503131e-16 2.7800000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>-5.9599999999994804 2.6645352591003757e-15 6.2172489379008766e-15</Position>
+<Axis>-1 6.2202397941249907e-16 4.7184478546568916e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insert:2_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel v1:2</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 2.2204460492503131e-16 2.7800000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>-5.9599999999994804 2.6645352591003757e-15 6.2172489379008766e-15</Position>
+<Axis>-1 6.2202397941249907e-16 4.7184478546568916e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="rigid_body.iam" uid="rigid_body.iam_{1DA255D2-4C1B-4622-7A89-DB82A55AAD83}" version="{FD831B64-ACF9-198E-2216-141A9D228E56}">
+<ModelUnits mass="lbmass" length="inch"/>
+<AssemblyFile name="rigid_body.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Tilt Chassis.iam" uid="Tilt Chassis.iam_{EF5080D4-4764-B39E-3504-FAB9B520788F}" version="{91F1A368-59AA-0841-3DD5-CF56AD322826}">
+<AssemblyFile name="Tilt Chassis.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Battery Module v16.iam" uid="Battery Module v16.iam_{EA432E64-4287-81A3-F82F-68B72ABED728}" version="{33B5BE5E-90D1-8ABA-8F1A-7AD948F2BE0F}">
+<AssemblyFile name="Battery Module v16.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="PCB1 v3.iam" uid="PCB1 v3.iam_{3FD5F6F7-4C45-21EE-AB69-FDBC7E2411B8}" version="{3499DCD9-9A83-FFBF-2DB4-A31CBF5AD494}">
+<AssemblyFile name="PCB1 v3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Board.iam" uid="Board.iam_{740D3437-4A21-FA4B-2558-78A3609B0728}" version="{5C954331-B2E4-7A30-483B-0A19A1385C1E}">
+<AssemblyFile name="Board.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J1.iam" uid="J1.iam_{9ADD658C-4C81-15EC-676D-F8B7AC2D1CBD}" version="{A369103C-5AC2-FC7A-849C-48E3A898E35B}">
+<AssemblyFile name="J1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="CUI_DEVICES_TB010-508-04BE.iam" uid="CUI_DEVICES_TB010-508-04BE.iam_{54C8AB4E-426F-C578-23AC-2B9EBEE6959F}" version="{6113AAA1-9E54-7CD3-23AD-DECAE454EA60}">
+<AssemblyFile name="CUI_DEVICES_TB010-508-04BE.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J14.iam" uid="J14.iam_{0C1BE6D5-4A61-66F1-7D11-ECA1C3F47CC2}" version="{7A3651A9-032B-0C11-A674-460507783517}">
+<AssemblyFile name="J14.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J13.iam" uid="J13.iam_{23CD496B-418F-4C2B-D301-BBBF289861AA}" version="{2B57C778-03F6-CBDD-B4BC-2ECA187471F0}">
+<AssemblyFile name="J13.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J8.iam" uid="J8.iam_{6E9A5B98-45EB-3482-4080-6A9B05DA47A9}" version="{A69A5AF4-7C2A-C35D-AB33-E009E7E55A34}">
+<AssemblyFile name="J8.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="R3.iam" uid="R3.iam_{61BD3130-4461-0CCB-C888-E7A6D53A2660}" version="{E9C942A8-D94F-0AD9-DA06-6415DA9E7060}">
+<AssemblyFile name="R3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="R1.iam" uid="R1.iam_{03686AA6-4319-4411-18B8-798D542AB93A}" version="{916A8551-AE9D-D505-4364-D955527F556D}">
+<AssemblyFile name="R1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J2.iam" uid="J2.iam_{CD135C60-4D19-85DC-5C21-74BCC19801C7}" version="{26333D95-9D77-1CAC-07C7-BFEDFFC5E4C0}">
+<AssemblyFile name="J2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="C1.iam" uid="C1.iam_{C503D799-467B-1B42-B674-299112CFC8D7}" version="{0B86D9F7-54A0-C75F-C08E-D213E5F40706}">
+<AssemblyFile name="C1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="U1.iam" uid="U1.iam_{94AFA6E3-44BC-4A2E-B951-429270E5D67D}" version="{9EC98D43-0D6B-D0F8-9C8F-4CCBA59329C3}">
+<AssemblyFile name="U1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="S1.iam" uid="S1.iam_{2C04F0D6-4D6A-E08F-0344-5A8FCB99CD4D}" version="{D38B57AE-A86B-6EB4-F946-F2EEFCE21377}">
+<AssemblyFile name="S1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="R4.iam" uid="R4.iam_{1180179D-45A7-4D07-CF7C-3CAD81D5C903}" version="{90A54643-01DE-8C7D-2B1C-71DC07B330F5}">
+<AssemblyFile name="R4.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="R2.iam" uid="R2.iam_{C17C7011-4EA6-E66C-11F6-1A86CFBEE2D8}" version="{45BFEEFC-6E7F-40CE-D1BF-1B407B747DD7}">
+<AssemblyFile name="R2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J5.iam" uid="J5.iam_{5C83DEA1-4E5B-8ED0-DDA9-FF838889B8F5}" version="{09446D81-1119-79E0-C893-67176E4D064F}">
+<AssemblyFile name="J5.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="D3.iam" uid="D3.iam_{600C8BB6-4234-BF79-F1AA-63A097BA0F94}" version="{5BB10113-916B-73A6-B885-C0734B8751EA}">
+<AssemblyFile name="D3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="WP7113GD (1).iam" uid="WP7113GD (1).iam_{0E66100B-4DE0-DA28-1672-1B9D7B44DEF2}" version="{A68BFE1C-D73E-EE84-0AEE-DBFE513A8BC5}">
+<AssemblyFile name="WP7113GD (1).iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="D2.iam" uid="D2.iam_{09D70841-4950-12E9-FFD4-5985D61D113F}" version="{DCDD5DE1-0D2B-B1BA-7E0C-A36971D4D8E1}">
+<AssemblyFile name="D2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="S3.iam" uid="S3.iam_{86450D7B-47C1-737D-73CB-C9BD9D76A726}" version="{93271A6A-6C4D-0D9A-13D9-D7D3F86D77E8}">
+<AssemblyFile name="S3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="-1814025624.iam" uid="-1814025624.iam_{652DA6A3-4AC9-F2E1-3DEE-B5BE48F86E42}" version="{F277B3AD-A68F-6050-F497-3EF79B56CAAD}">
+<AssemblyFile name="-1814025624.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="-1814017624.iam" uid="-1814017624.iam_{040B053C-4E84-DBE2-4FDD-DFB20B7BBE20}" version="{A6D44D73-92CD-BE4A-DB4F-16205A96715C}">
+<AssemblyFile name="-1814017624.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="-1814017024.iam" uid="-1814017024.iam_{B212B6E5-457A-7102-92B3-A98D71AB2B2B}" version="{7B893A93-1F1F-025B-3512-D99124AF93BA}">
+<AssemblyFile name="-1814017024.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J4.iam" uid="J4.iam_{16A595F1-4B7E-641B-2459-2A90FBCE00BC}" version="{54956E3E-4FB8-8014-FE22-5A10F0FD4303}">
+<AssemblyFile name="J4.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="S2.iam" uid="S2.iam_{C0569D7A-4F6F-F6B9-1250-E0B3CC0E1EAB}" version="{F11D5B0B-F6DA-D115-FFE5-4D6060FE3648}">
+<AssemblyFile name="S2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J10.iam" uid="J10.iam_{A83981E9-4475-EC26-4908-FCB6B0BDF3E2}" version="{202EC63F-F294-835C-0E72-3BEB27D97E46}">
+<AssemblyFile name="J10.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J9.iam" uid="J9.iam_{33324B0B-4471-9BE1-8F06-ECAAEB9D19FE}" version="{FC9DA37E-4CA5-392A-571F-206E693F553C}">
+<AssemblyFile name="J9.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J12.iam" uid="J12.iam_{B5D61286-48CE-3B6F-4717-61B526981E75}" version="{673A76FC-052B-5A05-D102-81CC736765A4}">
+<AssemblyFile name="J12.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J11.iam" uid="J11.iam_{A58139BF-4848-0E4E-71EE-B096B65064F3}" version="{C731B743-25ED-FCEB-E61D-4B8EB0311FB9}">
+<AssemblyFile name="J11.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J7.iam" uid="J7.iam_{28C73C0B-4A7B-8438-0D3A-55A521B9C0D2}" version="{574CC1E6-0E30-20D8-AA6C-B09F4EFAE9D2}">
+<AssemblyFile name="J7.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J6.iam" uid="J6.iam_{100F5E8A-4A9B-A961-7050-67B8EBCC6260}" version="{C993BD6B-DFCA-6A20-FC58-619C5EBD6F25}">
+<AssemblyFile name="J6.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J3.iam" uid="J3.iam_{FD54F31D-41AF-415F-4946-21AF47FC569C}" version="{B8D5CB28-BA79-84F3-C1BE-D67D11C99AE7}">
+<AssemblyFile name="J3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="F1.iam" uid="F1.iam_{4D7B9313-4170-E93A-9616-A5AA5C8E2EE2}" version="{FE4568A9-28AE-A5A8-54C4-AA26E578CB08}">
+<AssemblyFile name="F1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="D1.iam" uid="D1.iam_{42CAFFEA-4B7B-4205-DCB5-A8ACF40B6F67}" version="{3651940B-1053-67DA-1CA2-2689317966A8}">
+<AssemblyFile name="D1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="C4.iam" uid="C4.iam_{AAF8E958-48AB-4A69-05D8-2E89F4AF8BDA}" version="{6A1130B0-B491-E1FA-4E0F-8BC944BD7A09}">
+<AssemblyFile name="C4.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="C5.iam" uid="C5.iam_{090158FA-4BBD-350B-E328-94B99C4E9312}" version="{94764C9E-513B-04A1-D171-CF1DD0F957A1}">
+<AssemblyFile name="C5.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="C3.iam" uid="C3.iam_{612B430C-4E97-5B54-272B-1C91D5889824}" version="{9249A226-0949-F423-B566-DD21C7A21BC7}">
+<AssemblyFile name="C3.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="C2.iam" uid="C2.iam_{9F1EB47F-4DC2-EB42-9FBA-EEB1DE52F8AD}" version="{E367F215-43C4-3D0D-A93B-4B2CD484A946}">
+<AssemblyFile name="C2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Logic Module v7.iam" uid="Logic Module v7.iam_{F9E10FED-4A50-C05A-22FB-B4B75DFB76F2}" version="{0DC1D926-C9A9-FB7C-468A-2C679EFFD9D2}">
+<AssemblyFile name="Logic Module v7.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Raspberry Pi 4 Model B v2.iam" uid="Raspberry Pi 4 Model B v2.iam_{29991E16-4620-9A1D-E6D2-75A9EB6631C9}" version="{5307A6C4-FEBB-7F29-B004-8D30FE31C70F}">
+<AssemblyFile name="Raspberry Pi 4 Model B v2.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="ESP32-shield v4.iam" uid="ESP32-shield v4.iam_{B01E4BBF-45BA-63C8-1610-BC86F7A0434F}" version="{72DBD468-E9BC-4F03-C7FA-2D4A1BD2D67B}">
+<AssemblyFile name="ESP32-shield v4.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J11_1.iam" uid="J11_1.iam_{2610FBF0-4D0E-5884-496C-24AEFDE731F4}" version="{2EF5BA26-D0D9-A891-E5D2-9EC5F0500515}">
+<AssemblyFile name="J11_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="SSW-103-03-TL-D.iam" uid="SSW-103-03-TL-D.iam_{A5211A9F-400D-AE77-661A-7D96FEEB044B}" version="{0B19D5C9-E923-772C-7716-AD832D297DFD}">
+<AssemblyFile name="SSW-103-03-TL-D.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J12_1.iam" uid="J12_1.iam_{7A6E2924-44B2-3620-9641-52A104F60BE8}" version="{E6923632-7627-017E-4C46-1D242ADC628D}">
+<AssemblyFile name="J12_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J1_1.iam" uid="J1_1.iam_{B9590B5D-4001-A8B8-EA7E-848822295120}" version="{BD78984E-5D2B-9DCE-92CD-2C85C9C3BD5F}">
+<AssemblyFile name="J1_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J2_1.iam" uid="J2_1.iam_{828E539B-43F1-55C3-88D3-528E3369FEB3}" version="{A8F2308D-E7D4-CD6E-4173-CD17EBEF5370}">
+<AssemblyFile name="J2_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J13_1.iam" uid="J13_1.iam_{FFD0A97D-4B24-002C-DCC8-F0BFE1776A23}" version="{21414F53-B7A9-AFFD-7BD5-781D348AB7D2}">
+<AssemblyFile name="J13_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="SSW-106-03-TL-S.iam" uid="SSW-106-03-TL-S.iam_{C8B7A7BC-4C44-ACD6-C1C7-AE899AE9C651}" version="{B8DBF907-D476-4EA0-FD26-22EC115C40D9}">
+<AssemblyFile name="SSW-106-03-TL-S.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="D1_1.iam" uid="D1_1.iam_{1D911DF1-47E4-A535-6A57-D98ECA158354}" version="{D81DC614-F486-9172-E2C7-CF1CEFA23445}">
+<AssemblyFile name="D1_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="1636032352.iam" uid="1636032352.iam_{C504A7F9-44A0-FFB1-C93C-C7BF06FA51F8}" version="{A5A43686-6B45-35A4-692B-38CC13A12827}">
+<AssemblyFile name="1636032352.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="1636032480.iam" uid="1636032480.iam_{6726C8F9-467B-6201-DB58-3FA33A606A11}" version="{A43DF5F9-EE35-BA1C-78AF-D01E026237A7}">
+<AssemblyFile name="1636032480.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J5_1.iam" uid="J5_1.iam_{F2FACEAE-4D85-F342-78B9-35AB81E90443}" version="{CF2BF1EE-FF1F-AC15-6832-E2E90418D0AA}">
+<AssemblyFile name="J5_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="SSW-119-01-G-S.iam" uid="SSW-119-01-G-S.iam_{51480BF4-4F79-F9A1-A971-9A97A49103BE}" version="{7A515BE2-8913-EAEC-79C7-38AFD0354B99}">
+<AssemblyFile name="SSW-119-01-G-S.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="J6_1.iam" uid="J6_1.iam_{56DECAC5-4FD8-8300-02CB-04A1EC702C2B}" version="{E825C0A9-EEBE-E63F-6B7D-45DE719C079F}">
+<AssemblyFile name="J6_1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="SW1.iam" uid="SW1.iam_{164DA61E-4B88-935D-AA44-73BB56653F06}" version="{35154C6B-F121-F5FC-5607-570D7CE4E6F0}">
+<AssemblyFile name="SW1.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1.iam" uid="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1.iam_{1C8276A4-4C0E-0B06-A7EC-9CB01D68A703}" version="{68A9AA4D-B118-F925-4B06-4E594D36BCEF}">
+<AssemblyFile name="ESP32-DEVKITC-32D--3DModel-STEP-56544 v1.iam" type="Inventor Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="_P2SSW-119-01-G-S.ipt" uid="_P2SSW-119-01-G-S.ipt_{B8D92CC0-4815-0670-B916-8789AEBBE9D1}" version="{7AC0C3DA-8004-58CF-2C8A-B386B477C8F2}">
+<PartFile name="_P2SSW-119-01-G-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00021857238019632681</Mass>
+<CenterOfMass>1.4454151945507588e-13 0.22910222774817984 5.0932194894191614e-15</CenterOfMass>
+<Inertia>2.9624739925282298e-06 0.00041677637855320348 0.0004195535217740179 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_P2SSW-119-01-G-S_ipt_510d37b9.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_SSW-103-03-TL-D_pin.ipt" uid="_SSW-103-03-TL-D_pin.ipt_{E0B8C642-4DA2-1B52-A6C0-5BB0C6AAE29B}" version="{0C963066-37AB-1565-DD1A-A248740F61C9}">
+<PartFile name="_SSW-103-03-TL-D_pin.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00018503564831426038</Mass>
+<CenterOfMass>-8.0953791074999562e-16 0.61929582982061404 3.6061234206136169e-14</CenterOfMass>
+<Inertia>2.4499603882073992e-05 1.0677783970017347e-05 2.9363601462197298e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_SSW-103-03-TL-D_pin_ipt_50e22f81.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_SSW-103-03-TL-D_terminal.ipt" uid="_SSW-103-03-TL-D_terminal.ipt_{725BE722-4686-6ADA-8FE8-22A71047A9F7}" version="{CB0AD271-6682-3C85-C911-2D6381051682}">
+<PartFile name="_SSW-103-03-TL-D_terminal.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0023350078828136061</Mass>
+<CenterOfMass>0 0.44353716831637319 0</CenterOfMass>
+<Inertia>0.00017819544766953566 0.00018090262060299807 0.00026185187443200262 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_SSW-103-03-TL-D_terminal_ipt_acf858c0.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_SSW-106-03-TL-S_pin.ipt" uid="_SSW-106-03-TL-S_pin.ipt_{1D671DCF-43A2-A642-7BD1-D38EABE01A02}" version="{35013C94-7FD7-021A-7C1D-960093B94DE7}">
+<PartFile name="_SSW-106-03-TL-S_pin.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0001787966833729526</Mass>
+<CenterOfMass>-1.3709226733486644e-15 0.60266127632234689 7.1497425533669929e-15</CenterOfMass>
+<Inertia>2.0168306686519199e-05 3.3255491493108628e-05 5.3337799964245814e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_SSW-106-03-TL-S_pin_ipt_a875f2f3.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_SSW-106-03-TL-S_terminal.ipt" uid="_SSW-106-03-TL-S_terminal.ipt_{4F94887A-4794-61FC-AF3F-148BA2DC2495}" version="{44EF121F-B274-4886-805C-916E1074C88A}">
+<PartFile name="_SSW-106-03-TL-S_terminal.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0021872666202322052</Mass>
+<CenterOfMass>0 0.4441942155922321 0</CenterOfMass>
+<Inertia>0.0001325880190534554 0.00046962660859974065 0.00057896285438447661 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_SSW-106-03-TL-S_terminal_ipt_e54f3cae.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_T1SSW-119-01-G-S.ipt" uid="_T1SSW-119-01-G-S.ipt_{CDBA8E26-42A4-1716-F955-7C8ED56001C7}" version="{D34B91D5-83AB-6987-B3CA-334525648EFD}">
+<PartFile name="_T1SSW-119-01-G-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0067489411516713444</Mass>
+<CenterOfMass>0 0.44468692737258275 0</CenterOfMass>
+<Inertia>0.00040823352845633499 0.013461858568138262 0.013798183051338375 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_T1SSW-119-01-G-S_ipt_8f6b9231.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB.ipt" uid="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB.ipt_{724E473A-4DBF-262D-A55B-4DB063935CF6}" version="{E5C1F7C2-5B01-0724-BE27-79815CD52EF9}">
+<PartFile name="2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0053246218626553455</Mass>
+<CenterOfMass>-1.1030041102934247e-14 0.17499183259165785 0</CenterOfMass>
+<Inertia>0.00028353143928398625 0.011523882579524565 0.011594245981939061 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2.54 mm DUPONT MALE PIN HEADER_ IO_ 2X20_ RPi4ModelB_ipt_8076bf11.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB.ipt" uid="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB.ipt_{4C15887A-493A-B72A-942D-848C956FD939}" version="{0763E464-4588-F26E-BAFD-8E0DE28AD75E}">
+<PartFile name="2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00052681018626553268</Mass>
+<CenterOfMass>0 0.17552818106246279 0</CenterOfMass>
+<Inertia>2.8307922296921803e-05 2.1067754787909511e-05 2.8061887797881798e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2.54 mm DUPONT MALE PIN HEADER_ POE_ 2X2_ RPi4ModelB_ipt_4e449673.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2X USB2.0 PORTS, RPi4ModelB.ipt" uid="2X USB2.0 PORTS, RPi4ModelB.ipt_{F9335632-483C-2BE2-E441-1091ED6ACE83}" version="{B8436697-4FCC-4795-8154-927D0B984679}">
+<PartFile name="2X USB2.0 PORTS, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.020773185713390655</Mass>
+<CenterOfMass>-0.13423271115781987 0.80406422622843798 -0.0038121795879019513</CenterOfMass>
+<Inertia>0.0070835275243208836 0.0076614604034573137 0.0084845357637619492 4.7051586426541534e-06 1.9867221990205076e-05 -6.1564439399299344e-05</Inertia>
+</MassProperties>
+<GeometryFile name="2X USB2.0 PORTS_ RPi4ModelB_ipt_f4dc6ff4.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2X USB3.0 PORTS, RPi4ModelB.ipt" uid="2X USB3.0 PORTS, RPi4ModelB.ipt_{88FAF07C-4FD6-9328-6300-948E73F66356}" version="{28A42036-92EB-AAE7-4025-B2D1CB224232}">
+<PartFile name="2X USB3.0 PORTS, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.019250794539292505</Mass>
+<CenterOfMass>-0.13402968458948916 0.81433456021746198 7.1671848078065604e-05</CenterOfMass>
+<Inertia>0.0061269886646495913 0.0071156806632344648 0.0077772811883199677 7.8612231670613149e-07 1.0686871315465697e-06 -0.0002737823585980186</Inertia>
+</MassProperties>
+<GeometryFile name="2X USB3.0 PORTS_ RPi4ModelB_ipt_b7798f80.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="91292A010_18-8 Stainless Steel Socket Head Screw.ipt" uid="91292A010_18-8 Stainless Steel Socket Head Screw.ipt_{E05F2865-4961-C3B7-155F-83A112023D8C}" version="{C28D653A-6F11-9230-E6EE-B6F93A129A4A}">
+<PartFile name="91292A010_18-8 Stainless Steel Socket Head Screw.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0013635183385379878</Mass>
+<CenterOfMass>-0.0099318997800867826 -0.06537576463470901 -0.39410095115213117</CenterOfMass>
+<Inertia>6.6584270642544493e-05 5.8186464412999486e-05 1.980908909628358e-05 7.8770516980172552e-06 1.0265983920857451e-06 -6.0919148460206843e-07</Inertia>
+</MassProperties>
+<GeometryFile name="91292A010_18-8 Stainless Steel Socket Head Screw_ipt_97852d07.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="91292A111_18-8 Stainless Steel Socket Head Screw.ipt" uid="91292A111_18-8 Stainless Steel Socket Head Screw.ipt_{DA74DF8B-4019-981E-99E6-E5AC4CCBA6C8}" version="{F7C89A02-1CD3-FA45-9296-29838818AACE}">
+<PartFile name="91292A111_18-8 Stainless Steel Socket Head Screw.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0007319613965528569</Mass>
+<CenterOfMass>-2.9670973780203688e-05 -4.5139593777757136e-05 -0.58372834207087299</CenterOfMass>
+<Inertia>5.4225490900205953e-05 5.4221725608489894e-05 2.2164272546910208e-05 2.9822639680773156e-09 -1.6379238565097361e-09 1.0752141336263369e-08</Inertia>
+</MassProperties>
+<GeometryFile name="91292A111_18-8 Stainless Steel Socket Head Screw_ipt_c769b294.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt" uid="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt_{15B32AE6-4045-AF0E-ACED-73BB660F49A1}" version="{1E03E239-A99F-F943-0A98-793196015261}">
+<PartFile name="91292A111_18-8 Stainless Steel Socket Head Screw_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0007319613965528569</Mass>
+<CenterOfMass>-2.9670973780203688e-05 -4.5139593777757136e-05 -0.58372834207087299</CenterOfMass>
+<Inertia>5.4225490900205953e-05 5.4221725608489894e-05 2.2164272546910208e-05 2.9822639680773156e-09 -1.6379238565097361e-09 1.0752141336263369e-08</Inertia>
+</MassProperties>
+<GeometryFile name="91292A111_18-8 Stainless Steel Socket Head Screw_1_ipt_de3b2aaa.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB.ipt" uid="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB.ipt_{90E9E6CE-4D34-D24E-DCD6-A783448243E6}" version="{78BCB345-450E-9434-0743-586D5D85315C}">
+<PartFile name="91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00091022766296366194</Mass>
+<CenterOfMass>-4.1196386335554798e-05 0.039983042922333303 9.9715813949077941e-05</CenterOfMass>
+<Inertia>0.00015998824889028711 0.00023537822555149112 7.6360083035245882e-05 -3.6189921971831436e-09 -1.3482399840353202e-08 1.4498371382052169e-09</Inertia>
+</MassProperties>
+<GeometryFile name="91D77 D9WHV 778K_ 4 GB LPDDR4 SDRAM_ RPi4ModelB_ipt_172432cc.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="93655A095_Male-Female Threaded Hex Standoff.ipt" uid="93655A095_Male-Female Threaded Hex Standoff.ipt_{F09960B1-41FF-6B88-AC6D-E2B125D1C544}" version="{2837F6E3-A806-4A4D-5099-084BC030BA24}">
+<PartFile name="93655A095_Male-Female Threaded Hex Standoff.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0010796225472347514</Mass>
+<CenterOfMass>-6.3923617843513267e-05 2.1159886909916032e-05 0.246071451201783</CenterOfMass>
+<Inertia>0.00012393563305000536 0.00012394388866046255 3.0377812792299611e-05 -2.5364531145976002e-08 3.2697564179251616e-09 3.9490379892244497e-09</Inertia>
+</MassProperties>
+<GeometryFile name="93655A095_Male-Female Threaded Hex Standoff_ipt_32b17f2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="94868A006_Female Threaded Hex Standoff.ipt" uid="94868A006_Female Threaded Hex Standoff.ipt_{D24D65FF-4ACD-A11A-BF14-B9B55A5D28A6}" version="{C386EE73-ADF6-23F4-C461-5C484EED2143}">
+<PartFile name="94868A006_Female Threaded Hex Standoff.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0019502982909775867</Mass>
+<CenterOfMass>1.4085514351208926e-05 3.3630854424561208e-05 5.1486577167078963e-05</CenterOfMass>
+<Inertia>0.00021369134716331921 0.00021369638857706731 0.00011540474862995169 1.7413837813255875e-08 1.2441859422882183e-08 4.841769468466577e-09</Inertia>
+</MassProperties>
+<GeometryFile name="94868A006_Female Threaded Hex Standoff_ipt_8ff43bba.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="94868A163_Female Threaded Hex Standoff.ipt" uid="94868A163_Female Threaded Hex Standoff.ipt_{36111BAE-42C3-1EFC-5C40-ED9464DA1351}" version="{B68D872B-C1DC-53E7-8298-6E0EFF69F102}">
+<PartFile name="94868A163_Female Threaded Hex Standoff.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.000836178086370329</Mass>
+<CenterOfMass>3.3451828786071031e-05 -0.00025399935706001261 3.7029358773684915e-05</CenterOfMass>
+<Inertia>5.72036558527773e-05 5.7305976274450131e-05 2.881607184930259e-05 4.7860862319305232e-08 1.1753029135379408e-09 1.4820214386517405e-09</Inertia>
+</MassProperties>
+<GeometryFile name="94868A163_Female Threaded Hex Standoff_ipt_96fad51e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="961104-5804-XX_RGB16777215.ipt" uid="961104-5804-XX_RGB16777215.ipt_{4259ACB7-402C-35A2-ABC6-4BB888974786}" version="{269D5959-1F38-C8E7-4570-D1A3C63BCFF4}">
+<PartFile name="961104-5804-XX_RGB16777215.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0005704016493261509</Mass>
+<CenterOfMass>0.50800000000000034 0.10453253764820418 0.12431980745906231</CenterOfMass>
+<Inertia>3.0800193033222283e-05 7.3572466455481709e-05 5.3389781223692812e-05 -3.6694399331445825e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="961104-5804-XX_RGB16777215_ipt_dca53734.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Holder Top.ipt" uid="Battery Holder Top.ipt_{FABF4E8F-4AEF-7CDC-E0EA-E9B3F35AFD97}" version="{B12ACC37-E8A1-0BB8-42D0-387008CFEDCD}">
+<PartFile name="Battery Holder Top.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.20973930631573046</Mass>
+<CenterOfMass>0.0031558945385952264 2.8875812927725812 -0.0054661652869995563</CenterOfMass>
+<Inertia>1.3750818376158533 2.7547092963559878 1.3944523660526089 2.4720808515955372e-05 0.021354335862616668 -1.4272648050937864e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Holder Top_ipt_f5ac1b94.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Holder.ipt" uid="Battery Holder.ipt_{1E1A0695-4DE5-0B07-2336-14A8E1E2211E}" version="{D4985135-55D7-C82E-D803-BCCC8BABA223}">
+<PartFile name="Battery Holder.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.32769211696885142</Mass>
+<CenterOfMass>3.3630840927463276e-10 0.23188717246064763 -9.9618161936741869e-05</CenterOfMass>
+<Inertia>1.8914199435917087 3.4884516448884448 1.8449620521466028 -2.6091758778363972e-06 3.3692330057717744e-09 2.9992686792991944e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Holder_ipt_9465c8a1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Spring.ipt" uid="Battery Spring.ipt_{2D5F54A8-4BB0-0B53-94DF-448E0A8BCEE3}" version="{482006BF-3C1E-0BB0-502D-66CD681E63F9}">
+<PartFile name="Battery Spring.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00040236571282128839</Mass>
+<CenterOfMass>-0.007281884076852793 0.99846932341537808 -0.00035470509754605774</CenterOfMass>
+<Inertia>0.0002435775316841523 7.1245891187510723e-05 0.0002425205158553172 -7.0262054139656309e-06 4.9657242668033925e-08 1.4658603138576138e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Spring_ipt_a39a9f1a.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Strut.ipt" uid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}" version="{0BDF4A86-1B46-A720-37BB-41F48FB67BAC}">
+<PartFile name="Battery Strut.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.029963725331777304</Mass>
+<CenterOfMass>7.0873985501056723e-11 6.7500000000000027 -1.5124722765075076e-15</CenterOfMass>
+<Inertia>0.45814535972577958 0.0061425632942425376 0.45814536052119958 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Strut_ipt_681a6e7c.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Board.ipt" uid="Board.ipt_{09FAFAE4-4879-1B02-83D2-33BBFB8149DB}" version="{75385816-4A63-7085-8690-E01BDB78D9C9}">
+<PartFile name="Board.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.011220667901931198</Mass>
+<CenterOfMass>22.389170751916552 27.005586649587443 0.02057400000000012</CenterOfMass>
+<Inertia>0.026072512236577496 0.043208296823768248 0.069277642666587785 0 0 0.00042162188252586929</Inertia>
+</MassProperties>
+<GeometryFile name="Board_ipt_1a3a7f38.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="board_1.ipt" uid="board_1.ipt_{276F5EF0-4BE0-25C1-EC77-29AD25D7E7D1}" version="{D9041C09-727C-067D-C208-22A9C6D47B40}">
+<PartFile name="board_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0092212936649506867</Mass>
+<CenterOfMass>-2.2634024825489784e-15 -0.045000000000000186 -0.013878311670214253</CenterOfMass>
+<Inertia>0.017691969817534188 0.023489302902439578 0.0058097818313530766 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="board_1_ipt_b3a6eaba.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Broadcom BCM2711B0 CPU, RPi4ModelB.ipt" uid="Broadcom BCM2711B0 CPU, RPi4ModelB.ipt_{937559FD-4B7F-2BD9-3700-1CA1665AB51D}" version="{F05FC32E-ED8D-0004-C150-E01C3CFED3D9}">
+<PartFile name="Broadcom BCM2711B0 CPU, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0034188571276075807</Mass>
+<CenterOfMass>0.00087162572583110367 0.10317013031279518 -0.00087162572583154971</CenterOfMass>
+<Inertia>0.00057279632115516408 0.001118060644079449 0.00057279632115516429 -9.7854866746700762e-09 -2.0296776595544349e-06 9.7854866747034695e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Broadcom BCM2711B0 CPU_ RPi4ModelB_ipt_830d5f30.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB.ipt" uid="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB.ipt_{FC8B91E8-48E4-A63C-5A28-14B4F8015C1C}" version="{90A155FE-807D-0B6C-D73D-CBCAD016E96D}">
+<PartFile name="Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00028359831117559905</Mass>
+<CenterOfMass>1.297476128729966e-05 0.049797711398943546 -1.0979901471395882e-05</CenterOfMass>
+<Inertia>8.780865308052234e-06 1.7088011001326914e-05 8.7820745823957351e-06 1.1892149508161879e-10 1.0267566735867958e-10 -2.8179453568603936e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Broadcom BCM54213PE Gigabit Ethernet Transceiver_ RPi4ModelB_ipt_e2a1d3a8.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="button.ipt" uid="button.ipt_{2910CCA9-48B1-F2CD-CE50-658FC992CBDE}" version="{8506C9FF-FD1E-DCEC-259D-4C5CDA6A7DA8}">
+<PartFile name="button.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>7.5852222746699413e-05</Mass>
+<CenterOfMass>0 0.050519399701189294 6.9289262459372519e-14</CenterOfMass>
+<Inertia>8.1702196920567732e-07 1.2087055522826951e-06 5.3751707023334595e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="button_ipt_c452996b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera Connector, RPi4ModelB.ipt" uid="Camera Connector, RPi4ModelB.ipt_{4BE6693C-4F0F-F9B9-6755-9A8C61134111}" version="{DC04B97A-B3DA-C623-95B3-F73FCED50A4C}">
+<PartFile name="Camera Connector, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0022408815042676239</Mass>
+<CenterOfMass>2.3871552682338087e-14 0.27702361962697808 0.015477922141253733</CenterOfMass>
+<Inertia>8.6898894625683898e-05 0.00080612267876521021 0.00084722470225562826 -6.5327337320909283e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Camera Connector_ RPi4ModelB_ipt_66a95be2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CFH02_RGB52479.ipt" uid="CFH02_RGB52479.ipt_{C1512619-4CA3-D05D-0F33-4184425736DB}" version="{D7A48F66-82CF-4F54-29B3-71EDDCAA77BA}">
+<PartFile name="CFH02_RGB52479.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0061220156335633812</Mass>
+<CenterOfMass>0 0.40578382581357963 -2.7638863158005583e-13</CenterOfMass>
+<Inertia>0.0009667151597558734 0.0033004911825803519 0.0032947694843134322 -5.6634524243984629e-16 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CFH02_RGB52479_ipt_680ff92e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chassis.ipt" uid="Chassis.ipt_{CB255870-4C81-5A40-A6C4-F1949B79EC0E}" version="{28EE3219-B8B3-9378-8241-08D3F83C69F5}">
+<PartFile name="Chassis.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.30947772387613459</Mass>
+<CenterOfMass>9.2531639213805024e-08 4.3307536287977593 1.2119287106218965e-05</CenterOfMass>
+<Inertia>6.1883572627785153 4.5064903880110903 6.1883573949206783 -1.9026235279137373e-05 -5.0403823534344851e-08 -1.4507209984760568e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis_ipt_db020e06.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CUI_P783F-Q24-S5-S.ipt" uid="CUI_P783F-Q24-S5-S.ipt_{F1284A7A-4C34-0DB8-E278-A8813942278B}" version="{EEFE8571-6964-D126-4A6F-E9C226B8810E}">
+<PartFile name="CUI_P783F-Q24-S5-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.011785705297433124</Mass>
+<CenterOfMass>0.59793326367957045 0.19032119833075664 0.038557028497209905</CenterOfMass>
+<Inertia>0.0015366435795571103 0.0067760946379528623 0.0076381777362938708 -3.9907689843928159e-05 -0.00012279338854079625 7.436269510006088e-07</Inertia>
+</MassProperties>
+<GeometryFile name="CUI_P783F-Q24-S5-S_ipt_f15768ab.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cypress CYW43455 Wireless Module Cover, RPi4ModelB.ipt" uid="Cypress CYW43455 Wireless Module Cover, RPi4ModelB.ipt_{AF907E54-4D74-830A-E80C-F08877F0F969}" version="{FDDCEAC1-791A-A4FA-C991-DB07AEBE6B79}">
+<PartFile name="Cypress CYW43455 Wireless Module Cover, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00030396089012557837</Mass>
+<CenterOfMass>0 0.1286054126903477 1.8816181574980345e-15</CenterOfMass>
+<Inertia>5.4501407856170283e-05 9.1151118211598789e-05 3.7640935749370106e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Cypress CYW43455 Wireless Module Cover_ RPi4ModelB_ipt_31d24c16.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Display Connector, RPi4ModelB.ipt" uid="Display Connector, RPi4ModelB.ipt_{74DA3EA1-44F1-7C05-1952-F697B8D55C84}" version="{F23CCA75-FF27-B0CC-A575-9C1840678E7C}">
+<PartFile name="Display Connector, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0022408815042676239</Mass>
+<CenterOfMass>2.3871552682338087e-14 0.27702361962697808 0.015477922141253733</CenterOfMass>
+<Inertia>8.6898894625683898e-05 0.00080612267876521021 0.00084722470225562826 -6.5327337320909283e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Display Connector_ RPi4ModelB_ipt_92640be6.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ESP32-WROOM-32D.ipt" uid="ESP32-WROOM-32D.ipt_{17C788D5-4C91-48CE-1323-1E892D39EAE6}" version="{3F37B40D-355D-28FC-C569-B6B1E14AEE7E}">
+<PartFile name="ESP32-WROOM-32D.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0035253194526223769</Mass>
+<CenterOfMass>2.0400508584059335e-05 0.067043028929386156 0.018491666577316854</CenterOfMass>
+<Inertia>0.001885749893583684 0.0028030672516209248 0.00095755055869267973 -2.1239404811506928e-05 -2.3886316066028811e-07 -8.8650265059451973e-09</Inertia>
+</MassProperties>
+<GeometryFile name="ESP32-WROOM-32D_ipt_a85aaea1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded (1).ipt" uid="Extruded (1).ipt_{C2BBFF70-48D9-4062-07AA-C6B67F5565B4}" version="{18E7CDDD-FCDA-4593-E886-04277F499456}">
+<PartFile name="Extruded (1).ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>5.887486109395978e-05</Mass>
+<CenterOfMass>-1.5874979680377573e-07 2.046118962670463e-07 0.050000027000000002</CenterOfMass>
+<Inertia>1.2756239911348335e-06 1.5945198636878297e-07 1.3369511030389049e-06 0 0 -7.1655574515063437e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded (1)_ipt_f2d0f93b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded (1)_1.ipt" uid="Extruded (1)_1.ipt_{0B38FDE1-4B48-FBD8-A6E0-299AFB000C62}" version="{36712B66-2C26-23AA-B041-0AECF61D9EAD}">
+<PartFile name="Extruded (1)_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>5.7887303580000021e-06</Mass>
+<CenterOfMass>0 0 0.025400000000000002</CenterOfMass>
+<Inertia>3.1900197580928849e-09 2.6453822384184892e-08 2.7154070623766261e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded (1)_1_ipt_a13a3989.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded (2).ipt" uid="Extruded (2).ipt_{A4400586-42D3-F975-2C97-D0AD5F738E7E}" version="{BF36DABF-2C06-078D-7D25-78ECA0A06C06}">
+<PartFile name="Extruded (2).ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0036573309119647549</Mass>
+<CenterOfMass>-2.3293856191874158e-07 3.174606213422585e-07 0.250000008</CenterOfMass>
+<Inertia>0.00036001095708240721 0.00036036389391541044 0.00056798605324640352 0 0 -2.6151049398471732e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded (2)_ipt_d1356f84.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded.ipt" uid="Extruded.ipt_{99F170DC-454B-1BA3-C1C7-BFAA21242A42}" version="{CFEBCA2E-CA5D-51D3-0BBA-5F24E284712D}">
+<PartFile name="Extruded.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>2.2961390381761252e-05</Mass>
+<CenterOfMass>-1.2699971285496012e-07 4.233304662383837e-08 0.064999997000000004</CenterOfMass>
+<Inertia>7.5390306444963031e-08 7.5390014835065258e-08 8.6105744341362101e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded_ipt_3529c83b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extruded_1.ipt" uid="Extruded_1.ipt_{6CC2948A-46C1-70D6-D52C-FEAAA7533199}" version="{D0055746-AF24-01E7-CFB3-2C34E74EDE99}">
+<PartFile name="Extruded_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00034517557180076762</Mass>
+<CenterOfMass>0 0 0.12100001199999999</CenterOfMass>
+<Inertia>7.771170639620993e-06 6.172573095952599e-06 1.0574599369490294e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extruded_1_ipt_1133cc98.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Female Micro HDMI Connector, RPi4ModelB.ipt" uid="Female Micro HDMI Connector, RPi4ModelB.ipt_{D16EEA38-4C77-518C-314F-CA9BEA672F9E}" version="{35BEA04B-18C7-58D3-ECA3-5F826E2E2350}">
+<PartFile name="Female Micro HDMI Connector, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00049303100497980715</Mass>
+<CenterOfMass>-4.6819193972186234e-05 0.15802753380982601 -0.18059837314770361</CenterOfMass>
+<Inertia>2.026290632337878e-05 3.6206082664529138e-05 2.3709893237211335e-05 8.2888574182344961e-07 3.7936777923976599e-09 -3.4301872401118069e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Female Micro HDMI Connector_ RPi4ModelB_ipt_333f40f9.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Female USB Type C Connector, RPi4ModelB.ipt" uid="Female USB Type C Connector, RPi4ModelB.ipt_{B1B55F03-4647-D6C2-29CA-DA85B83D1737}" version="{F89F212A-3836-2202-5D30-3BB369BFC526}">
+<PartFile name="Female USB Type C Connector, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0010180008433891743</Mass>
+<CenterOfMass>2.4931683127180554e-08 0.15934084830568448 -0.18323999962502771</CenterOfMass>
+<Inertia>5.3645210496759365e-05 0.00010854922891473077 7.1911255905221719e-05 -3.7761151648689481e-07 -1.118769511560602e-11 3.4543130154744244e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Female USB Type C Connector_ RPi4ModelB_ipt_5b93a8a.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gigabit Ethernet Port, RPi4ModelB.ipt" uid="Gigabit Ethernet Port, RPi4ModelB.ipt_{0B79999F-410C-2C56-1AB5-A2AD8B9EC88D}" version="{79FFD4C9-A6D7-408F-B687-ED1E05652371}">
+<PartFile name="Gigabit Ethernet Port, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.027404472818002998</Mass>
+<CenterOfMass>8.1680043084510302e-05 0.019907686804901834 -1.2316615482518884</CenterOfMass>
+<Inertia>0.014034004739658414 0.015834981478122536 0.011325125885407428 -0.00015600460482717826 -3.000670340921227e-06 1.6154902860120152e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Gigabit Ethernet Port_ RPi4ModelB_ipt_cd7a3297.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="header.ipt" uid="header.ipt_{63A90F93-43A5-B414-D471-7089456B2A2C}" version="{230DD921-785E-5141-16F5-3152DD45A5A3}">
+<PartFile name="header.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0026544007737150182</Mass>
+<CenterOfMass>2.2859999999999996 0.17270001146861075 0</CenterOfMass>
+<Inertia>0.00010458618402347683 0.0051594060625368794 0.0052416341262475664 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="header_ipt_dd1a17e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="l202021ma04_RGB3158064.ipt" uid="l202021ma04_RGB3158064.ipt_{4F4F5258-4179-549B-0D1D-A69C4B7F3FDD}" version="{6EC5B628-7A12-9BF8-CBA7-A51FC6DB9CD6}">
+<PartFile name="l202021ma04_RGB3158064.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.01098878470995383</Mass>
+<CenterOfMass>-0.040252555038887056 0.71797690371774792 0.096250641087282054</CenterOfMass>
+<Inertia>0.0041417544553487926 0.00772891179467247 0.0054294276824814365 -0.0001012831169917302 0.00017818182840527579 2.8558074999371243e-05</Inertia>
+</MassProperties>
+<GeometryFile name="l202021ma04_RGB3158064_ipt_f31564cd.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="micro usb.ipt" uid="micro usb.ipt_{46F2843E-463E-69EE-4DB2-9FAD28FDFAD5}" version="{F08B435E-C728-D18D-AA1E-3BE5F408B3EC}">
+<PartFile name="micro usb.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00035954979643122134</Mass>
+<CenterOfMass>-0.00010536223625500604 0.011033070794935191 -0.069467864805073082</CenterOfMass>
+<Inertia>1.1855385344347972e-05 2.6796351646716397e-05 1.9824333184125087e-05 1.7651839665109872e-07 4.9368405881684398e-09 -4.7538511846207963e-09</Inertia>
+</MassProperties>
+<GeometryFile name="micro usb_ipt_4cd55db7.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Microphone Plug, RPi4ModelB.ipt" uid="Microphone Plug, RPi4ModelB.ipt_{D9F2ED14-49EB-3225-ABEB-20AE93EB0955}" version="{8E473494-55BD-C442-4D42-AC7170660FA8}">
+<PartFile name="Microphone Plug, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0026002634747212673</Mass>
+<CenterOfMass>0.0005082781988269623 0.28250890636702225 0.1161294150963685</CenterOfMass>
+<Inertia>0.00060035652318857517 0.00064142333381006879 0.00022222446442825232 3.2630338406613861e-06 1.4600929523797999e-06 1.8217491405348143e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Microphone Plug_ RPi4ModelB_ipt_f95d81b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MxL7704 Universal PMIC, RPi4ModelB.ipt" uid="MxL7704 Universal PMIC, RPi4ModelB.ipt_{EDCB5278-49D8-FB33-966E-3C984A5C63CE}" version="{5C36ED71-539D-4306-385D-A4639B5324A6}">
+<PartFile name="MxL7704 Universal PMIC, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00015745034587988331</Mass>
+<CenterOfMass>-1.8486006318894608e-05 0.039874238975146518 -1.0232894951887507e-05</CenterOfMass>
+<Inertia>3.3746860071909596e-06 6.5812946622600733e-06 3.3751387801800264e-06 5.5972334600622252e-11 1.7447026486820806e-10 1.1764058226252361e-10</Inertia>
+</MassProperties>
+<GeometryFile name="MxL7704 Universal PMIC_ RPi4ModelB_ipt_a2416ea6.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NiMH Battery v2.ipt" uid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}" version="{187372E6-B56B-603F-A202-ACCF5206FD4B}">
+<PartFile name="NiMH Battery v2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.98785168687442892</Mass>
+<CenterOfMass>0 6.3500000000000005 0</CenterOfMass>
+<Inertia>13.728335045475047 1.8167277443284049 14.643492461516136 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NiMH Battery v2_ipt_b21af86b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Open CASCADE STEP translator 6.8 11.1.1.ipt" uid="Open CASCADE STEP translator 6.8 11.1.1.ipt_{C0125F1F-4415-53B9-1F67-D0B5CD72FDA6}" version="{A09ECF52-F60B-E861-FAEE-ED3161103AA8}">
+<PartFile name="Open CASCADE STEP translator 6.8 11.1.1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.091657033740558808</Mass>
+<CenterOfMass>9.9931171589310814 10.000572430638785 0.079571977000000071</CenterOfMass>
+<Inertia>0.56661135903657855 0.56315913857149458 1.129383601076821 0 0 -0.00083025161483055848</Inertia>
+</MassProperties>
+<GeometryFile name="Open CASCADE STEP translator 6.8 11.1.1_ipt_eafc9985.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PCB, RPi4ModelB.ipt" uid="PCB, RPi4ModelB.ipt_{2892FD78-41DC-D77A-C88B-D6A8283D5941}" version="{1EAD45A0-1CBD-F2DA-7300-D431B9F59B44}">
+<PartFile name="PCB, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.058923116991921584</Mass>
+<CenterOfMass>0.012078223333929099 0 0.017259459791388342</CenterOfMass>
+<Inertia>0.15128395240180725 0.50490801247376604 0.35387534678996974 0 0.00077367169757054329 0</Inertia>
+</MassProperties>
+<GeometryFile name="PCB_ RPi4ModelB_ipt_1d957801.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PNSC-ECA-1VM101.ipt" uid="PNSC-ECA-1VM101.ipt_{BAB81C01-46C1-ECAD-494B-BF82F28B3330}" version="{7EE1DB3B-AEA8-6A81-1FC0-3AC80AD45170}">
+<PartFile name="PNSC-ECA-1VM101.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0029821074992100317</Mass>
+<CenterOfMass>0.00016949255308592589 0 0.60193435303679188</CenterOfMass>
+<Inertia>0.00044670190857121894 0.00044708880648648399 0.00014771573124678494 0 -1.1329414916282944e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="PNSC-ECA-1VM101_ipt_c08bdd2b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Samtec-SSW-108-01-G-S.ipt" uid="Samtec-SSW-108-01-G-S.ipt_{BBBD9B59-4827-35B8-2017-BBAF460E5B65}" version="{3F8461B5-8255-6171-37F5-ABC8F8D8C9FC}">
+<PartFile name="Samtec-SSW-108-01-G-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0029491440719831112</Mass>
+<CenterOfMass>0 0.4293240808583233 0</CenterOfMass>
+<Inertia>0.0012521767280686653 0.0010900847494536348 0.00019279111093274947 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Samtec-SSW-108-01-G-S_ipt_d4d7f460.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Samtec-SSW-108-03-T-S.ipt" uid="Samtec-SSW-108-03-T-S.ipt_{6C97F6EF-4FC7-6E5F-F7D8-F3BCFA475801}" version="{24BC13FE-08A8-BE50-1DEF-D6D68EA7E745}">
+<PartFile name="Samtec-SSW-108-03-T-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0030971709119288378</Mass>
+<CenterOfMass>0 0.37888044174278762 0</CenterOfMass>
+<Inertia>0.0014661064488499269 0.0011403196263116493 0.00035652670194764798 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Samtec-SSW-108-03-T-S_ipt_d3761361.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SD Card Slot, RPi4ModelB.ipt" uid="SD Card Slot, RPi4ModelB.ipt_{D50309C3-4249-14F0-BC17-39AA81FBC2DF}" version="{7025ACEC-5403-8246-4035-B7BF0BE4C63C}">
+<PartFile name="SD Card Slot, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00067077295338639623</Mass>
+<CenterOfMass>0.050610235901349901 0.070760774915780117 -0.12786661210903336</CenterOfMass>
+<Inertia>7.35033912111125e-05 0.00017000286206620088 9.9223933963645119e-05 1.7887241757076916e-06 -6.9562212296398701e-06 -2.6666392343472396e-07</Inertia>
+</MassProperties>
+<GeometryFile name="SD Card Slot_ RPi4ModelB_ipt_560b3926.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spacer.ipt" uid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}" version="{B7E4F305-D677-657C-C98D-DEF3B94829FC}">
+<PartFile name="Spacer.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0075464197131883612</Mass>
+<CenterOfMass>7.0873937594695001e-11 1.7000000000000013 -5.1969847736329782e-16</CenterOfMass>
+<Inertia>0.0080432255272602365 0.001547015940772199 0.0080432257275882321 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spacer_ipt_4c9e1cc6.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SSW-106-02-X-S-RA.ipt" uid="SSW-106-02-X-S-RA.ipt_{13171AE9-41A9-FA58-4974-2BA6A8E07766}" version="{248EFDC0-CE83-0EBA-03E7-7819DDC17F34}">
+<PartFile name="SSW-106-02-X-S-RA.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0022733518082120566</Mass>
+<CenterOfMass>-0.0044623115094408073 0.41984515025767538 0</CenterOfMass>
+<Inertia>0.00061979965145550063 0.00048826834786764477 0.00015961662002265646 0 0 -5.8033010218085812e-06</Inertia>
+</MassProperties>
+<GeometryFile name="SSW-106-02-X-S-RA_ipt_573d4928.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SSW-110-03-X-S.ipt" uid="SSW-110-03-X-S.ipt_{49AA852B-4B72-E79D-9DA6-A793564E98FD}" version="{AEDF16E7-8703-CBE8-8704-F1DC2CB1DDB9}">
+<PartFile name="SSW-110-03-X-S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0038509940461729066</Mass>
+<CenterOfMass>0 0.37863290567115082 -9.0524686756850649e-16</CenterOfMass>
+<Inertia>0.0025872661048952821 0.002181212935609138 0.0004442793758446203 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SSW-110-03-X-S_ipt_1553c81d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stepper Motor v2.ipt" uid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}" version="{41EC6563-F2C5-7013-EB81-4F06A1F8A88D}">
+<PartFile name="Stepper Motor v2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.28032651533087161</Mass>
+<CenterOfMass>-0.00014174031385892275 1.0401305347758987 -2.8851186910532891e-15</CenterOfMass>
+<Inertia>0.49896296972574028 0.78080824798364468 0.49895541427343154 0 0 8.0852623538141128e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Stepper Motor v2_ipt_a4076631.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TB010-508-02P_Blue_-_S.ipt" uid="TB010-508-02P_Blue_-_S.ipt_{A825795C-4F10-65B7-8A10-13AAF1AD169C}" version="{F7C6E1FD-2018-6717-EC60-54FC2A6B0DAC}">
+<PartFile name="TB010-508-02P_Blue_-_S.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.013608804202212194</Mass>
+<CenterOfMass>-0.4570381530052024 0.77762245382379735 1.5237857958918042</CenterOfMass>
+<Inertia>0.0044512980984724492 0.0023661124015586024 0.0044636802986610441 1.3350352330665061e-05 1.2325061847624496e-05 5.4859796173052363e-05</Inertia>
+</MassProperties>
+<GeometryFile name="TB010-508-02P_Blue_-_S_ipt_48cbef9e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tilt Chassis.ipt" uid="Tilt Chassis.ipt_{20BF773B-4E1F-BB7B-1F5D-3791EC6936E3}" version="{1E6A8EFC-5271-D8EA-E0FC-850D3C79ADED}">
+<PartFile name="Tilt Chassis.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.081522483941912083</Mass>
+<CenterOfMass>2.473705659572905e-05 1.7086193702836978 0.00044715970687496018</CenterOfMass>
+<Inertia>1.1530739954992097 1.6875032966528931 1.0616216839908981 -0.00034982648083389632 -1.4128387209342334e-06 3.7135336140905168e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Tilt Chassis_ipt_ccee0cc2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="USB_Connector_Type_A_TH_female.ipt" uid="USB_Connector_Type_A_TH_female.ipt_{1CA83AEF-4DC0-6B6D-32B9-04BD00921494}" version="{282F80B6-714B-9C80-B0E6-79D4D749A286}">
+<PartFile name="USB_Connector_Type_A_TH_female.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0044097620255961114</Mass>
+<CenterOfMass>-4.8628017044295712e-07 -0.1412414928227739 -0.81794664133826767</CenterOfMass>
+<Inertia>0.00082955523493751665 0.0012997598071665274 0.00086793357780436836 -0.00011810152164589616 9.0183631804301227e-10 -9.4293020311436689e-10</Inertia>
+</MassProperties>
+<GeometryFile name="USB_Connector_Type_A_TH_female_ipt_4726cd66.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="User_Library-DO-41-30.ipt" uid="User_Library-DO-41-30.ipt_{38974EDE-4334-0D45-0A1E-30B626179B66}" version="{1233A903-0962-CB45-2EB2-6D542AA68AE0}">
+<PartFile name="User_Library-DO-41-30.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00020428533766226253</Mass>
+<CenterOfMass>-1.9170365798688175e-05 -5.1689051561072499e-06 0.11589527485163643</CenterOfMass>
+<Inertia>1.9668409894635882e-06 8.5450186692694016e-06 7.8737089037359695e-06 1.4217096740498994e-10 -3.1681093626035788e-10 1.055390180202398e-10</Inertia>
+</MassProperties>
+<GeometryFile name="User_Library-DO-41-30_ipt_400e19f9.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch.ipt" uid="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch.ipt_{D6CBF6F5-46ED-C45A-3626-838FDE795CB1}" version="{5F1CD960-26A7-069A-5DCF-20B786AC9CB5}">
+<PartFile name="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.001138310350781783</Mass>
+<CenterOfMass>0 0.21176112099421474 -1.7449196639148292e-12</CenterOfMass>
+<Inertia>4.9588590057616734e-05 6.6158475767149147e-05 5.1368156725935154e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="User_Library-FSM4JSMATR_-_TE_Connectivity_-_SPST_6mm_Tactile_Switch_ipt_c4ae30b4.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="User_Library-OAR5R005FLF.ipt" uid="User_Library-OAR5R005FLF.ipt_{7EB75D36-4B10-65C9-D0AD-75AFC104F758}" version="{4B8A6057-5968-20A2-D9E7-419DA1FFD620}">
+<PartFile name="User_Library-OAR5R005FLF.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0002587289813623319</Mass>
+<CenterOfMass>-9.3618207915818023e-05 0.57805642208297137 7.6185690189401156e-14</CenterOfMass>
+<Inertia>2.0852700903191162e-05 5.8841150105028052e-05 7.8548097099686806e-05 0 0 -1.310662466134636e-08</Inertia>
+</MassProperties>
+<GeometryFile name="User_Library-OAR5R005FLF_ipt_11da50b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="User_Library-Res40-Axial_Short_0_25W-5_6K.ipt" uid="User_Library-Res40-Axial_Short_0_25W-5_6K.ipt_{8E435D24-4A5C-1835-E81C-FB9170C89FFD}" version="{4E30C527-F9EE-9145-3DFB-18D28D86E1E8}">
+<PartFile name="User_Library-Res40-Axial_Short_0_25W-5_6K.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00020644009291690186</Mass>
+<CenterOfMass>1.6577134874384026e-06 7.7239248328230675e-15 0.1103004428175192</CenterOfMass>
+<Inertia>1.531796111908851e-06 1.3848903473702382e-05 1.339219130492415e-05 0 -3.7638902581779302e-12 -4.4250629028130768e-11</Inertia>
+</MassProperties>
+<GeometryFile name="User_Library-Res40-Axial_Short_0_25W-5_6K_ipt_dbe7fb4f.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB.ipt" uid="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB.ipt_{C77134E0-431C-A9D7-C1CD-2EA47D8B36E2}" version="{8CF2852A-7764-876A-C4B1-2C4B7B979131}">
+<PartFile name="VIA VL805 PCIe USB 3.0 controller, RPi4ModelB.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00040600070013057028</Mass>
+<CenterOfMass>-8.7790475616801837e-06 0.039613431697113594 -4.6542041941500209e-05</CenterOfMass>
+<Inertia>2.2111015981858813e-05 4.3784530701843954e-05 2.211205023590135e-05 7.5287197120770933e-10 4.4830100378863987e-10 1.4497766535126456e-10</Inertia>
+</MassProperties>
+<GeometryFile name="VIA VL805 PCIe USB 3.0 controller_ RPi4ModelB_ipt_1da19610.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel v1.ipt" uid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}" version="{6D4CB82E-899C-38AE-AD79-9BB7BB02CAB3}">
+<PartFile name="wheel v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.43188107786765445</Mass>
+<CenterOfMass>7.7904761186597193e-10 0 1.218424119909749</CenterOfMass>
+<Inertia>1.7681501782090117 1.7681504283253167 3.1251425109509898 -7.3729203607294049e-16 -2.3960676591869221e-12 -1.7848833522728251e-15</Inertia>
+</MassProperties>
+<GeometryFile name="wheel v1_ipt_8358048d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WP7113GD.ipt" uid="WP7113GD.ipt_{D3BAF5E8-44E4-50FB-D9F1-19BC429FA3BF}" version="{E048F768-8F2B-C0E9-7B72-04AAC6448287}">
+<PartFile name="WP7113GD.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0013546956377246783</Mass>
+<CenterOfMass>-0.0017595121359076208 0.24644948036911574 -3.4124582897073134e-08</CenterOfMass>
+<Inertia>0.00042070640185843007 4.1476077149437731e-05 0.00042188790059832949 -1.246790558654706e-10 -5.6444274223129031e-12 -1.4677390328613216e-06</Inertia>
+</MassProperties>
+<GeometryFile name="WP7113GD_ipt_94c2880.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

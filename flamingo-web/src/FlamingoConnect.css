@@ -1,0 +1,105 @@
+.FlamingoConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjusted to give equal spacing */
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    width: 250px; /* Match input width */
+    margin-bottom: 20px; /* Match vertical spacing with the title */
+    border-radius: 5px;
+    border: 2px solid #ccc; /* Add border to input field for better visibility */
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5; /* Ensure the line height matches the icon size */
+}
+
+.input-error {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    border: 2px solid red; /* Optional: highlight the input border on error */
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translateX(-1px);
+    }
+    20%, 80% {
+        transform: translateX(2px);
+    }
+    30%, 50%, 70% {
+        transform: translateX(-4px);
+    }
+    40%, 60% {
+        transform: translateX(4px);
+    }
+}
+
+.icon {
+    position: absolute;
+    right: 10px; /* Adjust this value to position the X correctly */
+    top: 50%;
+    transform: translateY(-65%);
+    font-size: 24px; /* Adjust the size of the icon */
+    line-height: 1; /* Adjust line height to align with the text */
+    display: flex;
+    align-items: center; /* Align the icon vertically */
+    height: 100%; /* Ensure the icon container takes full height of input */
+}
+
+.icon-valid {
+    color: green;
+}
+
+.icon-invalid {
+    color: red;
+}
+
+.flamingo-button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+.flamingo-button-container button {
+    padding: 16px 32px; /* Increase padding to match the previous size */
+    font-size: 16px; /* Adjust font size to match previous size */
+    border: none;
+    color: white; /* Make the text color white for all buttons initially */
+    background-color: #e91e63; /* Consistent pink background */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px; /* Set a fixed width to ensure buttons are the same size */
+}
+
+.flamingo-button-container button:last-child {
+    background-color: white; /* White background for the 'Back' button */
+    color: #e91e63; /* Pink text color applied consistently */
+}
+
+.flamingo-button-container button:hover {
+    opacity: 0.8;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

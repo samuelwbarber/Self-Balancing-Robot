@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="rlndo" on="05/29/24||14:22:13" using="Simscape Multibody Link Version 7.4" from="Autodesk Inventor 2018 (Build 220112000, 112)"/>
+<ModelUnits mass="lbmass" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Tilt+Robot2.iam" uid="Tilt+Robot2.iam_{88884B74-4558-F518-AB32-1696B09C3CFA}" version="{4755C436-539D-DE07-9377-018152E3D877}">
+<AssemblyFile name="Tilt+Robot.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="rigid_body:1" uid="rigid_body:1" entityUid="rigid_body.iam_{1DA255D2-4C1B-4622-7A89-DB82A55AAD83}" rigid="true">
+<Transform>
+<Rotation>0.99999999999999933 -1.5446018258694666e-16 1.3466184951312103e-16 0 0.99873744339697779 0.050234641004599484 -9.7286431849227363e-16 -0.050234641004598818 0.99873744339697756</Rotation>
+<Translation>4.5423238567392108 0.65130570846543101 1.9802510556738517</Translation>
+</Transform>
+<Instance name="Tilt Chassis:1" grounded="true" uid="Tilt Chassis:1" entityUid="Tilt Chassis.iam_{EF5080D4-4764-B39E-3504-FAB9B520788F}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Stepper Motor v2:1" grounded="true" uid="Stepper Motor v2:1" entityUid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}">
+<Transform>
+<Rotation>-5.1347814888913401e-16 1 0 -1 -5.1347814888913391e-16 0 0 0 1</Rotation>
+<Translation>2.0000000000008011 7.9936057773011271e-15 -4.4408920985006262e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="Stepper Motor v2:2" uid="Stepper Motor v2:2" entityUid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}">
+<Transform>
+<Rotation>-6.2202397941249788e-16 -1 -4.7184478546568798e-16 -1 6.2202397941249778e-16 0 0 4.7184478546568798e-16 -1</Rotation>
+<Translation>-1.99999999999948 0 4.4408920985006262e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:1" uid="Spacer:1" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 1 -2.2204460492503131e-16 0 2.1510571102112408e-16 1</Rotation>
+<Translation>2.3092638912203256e-14 3.7999999999999989 -4</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:2" uid="Spacer:2" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 1 -2.2204460492503131e-16 0 2.1510571102112408e-16 1</Rotation>
+<Translation>3.4641016151377402 3.8000000000000007 2.0000000000000195</Translation>
+</Transform>
+</Instance>
+<Instance name="Spacer:3" uid="Spacer:3" entityUid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}">
+<Transform>
+<Rotation>1 0 0 0 1 -2.2204460492503131e-16 0 2.1510571102112408e-16 1</Rotation>
+<Translation>-3.4641016151377695 3.7999999999999998 1.9999999999999796</Translation>
+</Transform>
+</Instance>
+<Instance name="Tilt Chassis" uid="Tilt Chassis" entityUid="Tilt Chassis.ipt_{20BF773B-4E1F-BB7B-1F5D-3791EC6936E3}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Battery Module v16:1" uid="Battery Module v16:1" entityUid="Battery Module v16.iam_{EA432E64-4287-81A3-F82F-68B72ABED728}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Battery Holder:1" grounded="true" uid="Battery Holder:1" entityUid="Battery Holder.ipt_{1E1A0695-4DE5-0B07-2336-14A8E1E2211E}">
+<Transform>
+<Rotation>-1 0 -1.6653345369377296e-16 0 1 0 1.6653345369377328e-16 0 -1</Rotation>
+<Translation>2.3980817331903381e-14 7.4000000000000021 0</Translation>
+</Transform>
+</Instance>
+<Instance name="NiMH Battery v2:2" uid="NiMH Battery v2:2" entityUid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.3980817331903381e-14 8.0999999999999996 1.6000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="NiMH Battery v2:3" uid="NiMH Battery v2:3" entityUid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.099999999999975664 8.0999999999999996 -1.5999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:1" uid="Battery Strut:1" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251597e-16 2.2204460492503099e-16 1 0 1 -2.2204460492503099e-16 -1 0 -1.1102230246251605e-16</Rotation>
+<Translation>2.3092638912203256e-14 7.3999999999999995 -4</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:2" uid="Battery Strut:2" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251597e-16 2.2204460492503099e-16 1 0 1 -2.2204460492503099e-16 -1 0 -1.1102230246251605e-16</Rotation>
+<Translation>3.464101615137781 7.3999999999999986 2</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Strut:3" uid="Battery Strut:3" entityUid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}">
+<Transform>
+<Rotation>-1.1102230246251597e-16 2.2204460492503099e-16 1 0 1 -2.2204460492503099e-16 -1 0 -1.1102230246251605e-16</Rotation>
+<Translation>-3.4641016151377304 7.4000000000000004 2</Translation>
+</Transform>
+</Instance>
+<Instance name="Battery Holder Top:1" uid="Battery Holder Top:1" entityUid="Battery Holder Top.ipt_{FABF4E8F-4AEF-7CDC-E0EA-E9B3F35AFD97}">
+<Transform>
+<Rotation>0.86602540378443882 0 -0.49999999999999983 0 -1 0 -0.49999999999999983 0 -0.86602540378443882</Rotation>
+<Translation>2.4868995751603507e-14 23.909143953999997 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Logic Module v7:1" uid="Logic Module v7:1" entityUid="Logic Module v7.iam_{F9E10FED-4A50-C05A-22FB-B4B75DFB76F2}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 28.499999999999996 0</Translation>
+</Transform>
+<Instance name="Chassis:1" grounded="true" uid="Chassis:1" entityUid="Chassis.ipt_{CB255870-4C81-5A40-A6C4-F1949B79EC0E}">
+<Transform>
+<Rotation>1 0 4.4408920985006301e-16 0 1 0 -4.4408920985006301e-16 0 1</Rotation>
+<Translation>2.7533531010703882e-14 -7.2000000000000099 -3.9968028886505635e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="wheels_assem:1" grounded="true" uid="wheels_assem:1" entityUid="wheels_assem.iam_{08D28C0E-4DD3-7A71-F434-19AC8C956D55}" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="wheel v1:1" grounded="true" uid="wheel v1:1" entityUid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}">
+<Transform>
+<Rotation>0 -1.2351231148954847e-15 -0.99999999999999933 -1.2358156874137772e-16 -0.99999999999999789 4.0245584642661732e-16 -0.99999999999999889 1.2246467991473488e-16 1.1102230246251549e-16</Rotation>
+<Translation>13.282323856740005 0.65130570846542502 1.98025105567385</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel v1:2" uid="wheel v1:2" entityUid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}">
+<Transform>
+<Rotation>0 8.5853866653077787e-16 0.99999999999999967 0.7469571424311936 0.66487218874835252 -6.1219997342951991e-16 -0.66487218874835208 0.74695714243119349 -6.7877399207407778e-16</Rotation>
+<Translation>-4.1976761432602778 0.65130570846542946 1.9802510556738562</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Insert:1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheels_assem:1</Uid>
+</InstancePath>
+<Position>10.502323856740006 0.65130570846542846 1.9802510556738502</Position>
+<Axis>-1 1.2351231148954872e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>5.9600000000008011 5.9952043329758453e-15 -8.8817841970012523e-16</Position>
+<Axis>1.0000000000000007 -4.9351695226822126e-16 8.3266726846886997e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insert:1_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheels_assem:1</Uid>
+</InstancePath>
+<Position>10.502323856740006 0.65130570846542846 1.9802510556738502</Position>
+<Axis>-1 1.2351231148954872e-15 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rigid_body:1</Uid>
+</InstancePath>
+<Position>5.9600000000008011 5.9952043329758453e-15 -8.8817841970012523e-16</Position>
+<Axis>1.0000000000000007 -4.9351695226822126e-16 8.3266726846886997e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="rigid_body.iam" uid="rigid_body.iam_{1DA255D2-4C1B-4622-7A89-DB82A55AAD83}" version="{099D3669-87F4-2318-8822-1D68ACF410BC}">
+<ModelUnits mass="lbmass" length="inch"/>
+<AssemblyFile name="rigid_body.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Tilt Chassis.iam" uid="Tilt Chassis.iam_{EF5080D4-4764-B39E-3504-FAB9B520788F}" version="{91F1A368-59AA-0841-3DD5-CF56AD322826}">
+<AssemblyFile name="Tilt Chassis.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Battery Module v16.iam" uid="Battery Module v16.iam_{EA432E64-4287-81A3-F82F-68B72ABED728}" version="{9EF7EF45-0769-3371-0A2D-6056EC5B2EEC}">
+<AssemblyFile name="Battery Module v16.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Logic Module v7.iam" uid="Logic Module v7.iam_{F9E10FED-4A50-C05A-22FB-B4B75DFB76F2}" version="{04CEAA6A-C3B1-747B-74B2-37CC62A85EC7}">
+<AssemblyFile name="Logic Module v7.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="wheels_assem.iam" uid="wheels_assem.iam_{08D28C0E-4DD3-7A71-F434-19AC8C956D55}" version="{7924EA9E-002E-4170-66A8-78D125FEB07A}">
+<ModelUnits mass="lbmass" length="inch"/>
+<AssemblyFile name="wheels_assem.iam" type="Inventor Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Battery Holder Top.ipt" uid="Battery Holder Top.ipt_{FABF4E8F-4AEF-7CDC-E0EA-E9B3F35AFD97}" version="{75EFABC2-B817-EE98-6B67-CC29301D84CA}">
+<PartFile name="Battery Holder Top.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.20973930631573046</Mass>
+<CenterOfMass>0.0031558945385952264 2.8875812927725812 -0.0054661652869995563</CenterOfMass>
+<Inertia>1.3750818376158533 2.7547092963559878 1.3944523660526089 2.4720808515955372e-05 0.021354335862616668 -1.4272648050937864e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Holder Top_ipt_f5ac1b94.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Holder.ipt" uid="Battery Holder.ipt_{1E1A0695-4DE5-0B07-2336-14A8E1E2211E}" version="{A75EBCD7-5650-4B75-6332-E8370F5A0187}">
+<PartFile name="Battery Holder.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.32769211696885142</Mass>
+<CenterOfMass>3.3630840927463276e-10 0.23188717246064763 -9.9618161936741869e-05</CenterOfMass>
+<Inertia>1.8914199435917087 3.4884516448884448 1.8449620521466028 -2.6091758778363972e-06 3.3692330057717744e-09 2.9992686792991944e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Holder_ipt_9465c8a1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Battery Strut.ipt" uid="Battery Strut.ipt_{3409DB74-4276-781E-CB12-B6955F938C36}" version="{256E1799-8602-CD5C-7900-F7F6613A4667}">
+<PartFile name="Battery Strut.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.029963725331777304</Mass>
+<CenterOfMass>7.0873985501056723e-11 6.7500000000000027 -1.5124722765075076e-15</CenterOfMass>
+<Inertia>0.45814535972577958 0.0061425632942425376 0.45814536052119958 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Battery Strut_ipt_681a6e7c.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chassis.ipt" uid="Chassis.ipt_{CB255870-4C81-5A40-A6C4-F1949B79EC0E}" version="{E30ED8C7-9AA5-C600-86F3-059E31E08C4D}">
+<PartFile name="Chassis.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.30947772387613459</Mass>
+<CenterOfMass>9.2531639213805024e-08 4.3307536287977593 1.2119287106218965e-05</CenterOfMass>
+<Inertia>6.1883572627785153 4.5064903880110903 6.1883573949206783 -1.9026235279137373e-05 -5.0403823534344851e-08 -1.4507209984760568e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis_ipt_db020e06.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NiMH Battery v2.ipt" uid="NiMH Battery v2.ipt_{FB10F661-4CD2-A405-7886-65B42254AA38}" version="{594553EC-FC39-7636-7299-025BE465D3B2}">
+<PartFile name="NiMH Battery v2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.98785168687442892</Mass>
+<CenterOfMass>0 6.3500000000000005 0</CenterOfMass>
+<Inertia>13.728335045475047 1.8167277443284049 14.643492461516136 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NiMH Battery v2_ipt_b21af86b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spacer.ipt" uid="Spacer.ipt_{BFA5B6C8-4DF9-28CB-8FC5-21984738333F}" version="{B5AB08D4-D252-1023-2632-137E887800FD}">
+<PartFile name="Spacer.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0075464197131883612</Mass>
+<CenterOfMass>7.0873937594695001e-11 1.7000000000000013 -5.1969847736329782e-16</CenterOfMass>
+<Inertia>0.0080432255272602365 0.001547015940772199 0.0080432257275882321 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spacer_ipt_4c9e1cc6.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stepper Motor v2.ipt" uid="Stepper Motor v2.ipt_{4DD1FF9E-40DE-585F-2D5B-6CB72D9554BC}" version="{46AC12D1-1DE0-F0BB-E43B-9F619B0A1F28}">
+<PartFile name="Stepper Motor v2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.28032651533087161</Mass>
+<CenterOfMass>-0.00014174031385892275 1.0401305347758987 -2.8851186910532891e-15</CenterOfMass>
+<Inertia>0.49896296972574028 0.78080824798364468 0.49895541427343154 0 0 8.0852623538141128e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Stepper Motor v2_ipt_a4076631.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tilt Chassis.ipt" uid="Tilt Chassis.ipt_{20BF773B-4E1F-BB7B-1F5D-3791EC6936E3}" version="{B72A5184-4A7C-1259-F18E-2A764FCCFEB4}">
+<PartFile name="Tilt Chassis.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.081522483941912083</Mass>
+<CenterOfMass>2.473705659572905e-05 1.7086193702836978 0.00044715970687496018</CenterOfMass>
+<Inertia>1.1530739954992097 1.6875032966528931 1.0616216839908981 -0.00034982648083389632 -1.4128387209342334e-06 3.7135336140905168e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Tilt Chassis_ipt_ccee0cc2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel v1.ipt" uid="wheel v1.ipt_{679CE2D4-4A5E-C441-0C58-B08E168C3868}" version="{6D4CB82E-899C-38AE-AD79-9BB7BB02CAB3}">
+<PartFile name="wheel v1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.43188107786765445</Mass>
+<CenterOfMass>7.7904761186597193e-10 0 1.218424119909749</CenterOfMass>
+<Inertia>1.7681501782090117 1.7681504283253167 3.1251425109509898 -7.3729203607294049e-16 -2.3960676591869221e-12 -1.7848833522728251e-15</Inertia>
+</MassProperties>
+<GeometryFile name="wheel v1_ipt_8358048d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

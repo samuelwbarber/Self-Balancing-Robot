@@ -1,0 +1,211 @@
+.Robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  .title h1 {
+    margin: 0;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e91e63;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #d81b60;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    height: calc(100% - 80px); /* Adjust height to leave space for the title and some padding */
+  }
+  
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-canvas {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 100%;
+  }
+  
+  .battery-info {
+    background-color: #dda0dd;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the start */
+    height: 97%;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px; /* Reduced gap */
+    max-height: 100%; /* Further limit the height of the charts section */
+  }
+  
+  .chart {
+    min-height: 220px; /* Increased minimum height by 50% */
+    height: 100%;
+  }
+  
+  .data-readings {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5px;
+    font-size: 1.2rem; 
+    color: #767676;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .column p {/* src/Robot.css */
+
+    .Robot {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+      text-align: center;
+    }
+    
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    
+    .title h1 {
+      margin: 0;
+    }
+    
+    .home-button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #e91e63;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .home-button:hover {
+      background-color: #d81b60;
+    }
+    
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      width: 90%;
+      height: calc(100% - 80px); /* Adjust height to leave space for the title and some padding */
+    }
+    
+    .map {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .map-canvas {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      width: 100%;
+    }
+    
+    .battery-info {
+      background-color: #dda0dd;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align items at the start */
+      height: 97%;
+    }
+    
+    .charts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px; /* Reduced gap */
+      max-height: 100%; /* Further limit the height of the charts section */
+    }
+    
+    .chart {
+      min-height: 80px; /* Reduced minimum height */
+      height: 100%;
+    }
+    
+    .data-readings {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 5px;
+      font-size: 1.2rem; /* Increase font size */
+    }
+    
+    .column {
+      flex: 1;
+      margin-right: 10px;
+    }
+    
+    .column p {
+      margin: 2px 0;
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    margin: 2px 0;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
