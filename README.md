@@ -1,4 +1,4 @@
-# Flamingo (Group 11)
+# Self Balancing Autonamous Robot
 Team Flamingo's repository for Imperial College Electronics Design Project 2
 
 The repository is divided into the following separate key folders:
