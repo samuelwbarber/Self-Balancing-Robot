@@ -1,7 +1,0 @@
-1.207 kg total (excluding wheels)
-0.029 kg per wheel
-0.249 kg per battery
-0.010 kg per battery strut
-0.025 kg per battery holder
-0.240 kg per motor
-0.060 kg per chassis
